@@ -15,13 +15,13 @@ const Home = () => {
                     <p className="text-content text-white text-center sm:px-0 px-2">CA :</p>
                     <p className="text-content text-white text-center sm:px-0 px-2">Celebrating All hail the King</p>
                     <div className="all-center gap-10 mt-10 sm:flex-row flex-col">
-                        <Link to={"/"}>
+                        <Link to={"#"} target="_blank">
                             <button className="bg-white text-[#432627] py-5 px-10 rounded-xl w-[315px] h-[57px] shadow-custom text-btn all-center">dextools chart</button>
                         </Link>
-                        <Link to={"/"}>
+                        <Link to={"https://t.me/PepeTheKing_Portal"} target="_blank">
                             <button className="bg-white text-[#432627] py-5 px-10 rounded-xl w-[315px] h-[57px] shadow-custom text-btn all-center">telegram</button>
                         </Link>
-                        <Link to={"/"}>
+                        <Link to={"https://twitter.com/PepeTheKing_eth"} target="_blank">
                             <button className="bg-white text-[#432627] py-5 px-10 rounded-xl w-[315px] h-[57px] shadow-custom text-btn all-center">twitter</button>
                         </Link>
                     </div>
