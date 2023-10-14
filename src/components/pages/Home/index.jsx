@@ -11,8 +11,9 @@ const Home = () => {
             <div className="bg-custom w-full h-full">
                 <div className="all-center w-full pt-[100px] flex-col">
                     <img src={ItemEog} alt="Item EOG" className="sm:w-[400px] w-[300px]" />
-                    <h1 className="text-title text-white sm:!text-[100px] !text-[80px]">$eOG</h1>
-                    <p className="text-content text-white text-center sm:px-0 px-2">Celebrating the OG Spirit of Vitalik Buterin</p>
+                    <h1 className="text-title text-white sm:!text-[100px] !text-[80px]">$pEPE</h1>
+                    <p className="text-content text-white text-center sm:px-0 px-2">CA :</p>
+                    <p className="text-content text-white text-center sm:px-0 px-2">Celebrating All hail the King</p>
                     <div className="all-center gap-10 mt-10 sm:flex-row flex-col">
                         <Link to={"/"}>
                             <button className="bg-white text-[#432627] py-5 px-10 rounded-xl w-[315px] h-[57px] shadow-custom text-btn all-center">dextools chart</button>
