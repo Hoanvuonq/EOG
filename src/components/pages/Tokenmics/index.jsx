@@ -1,5 +1,5 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Tokenmics = () => {
     return (
@@ -9,24 +9,24 @@ const Tokenmics = () => {
                 <div className="all-center gap-20 sm:flex-row flex-col">
                     <div className="all-center flex-col">
                         <p className="text-title-token pb-1">Total Supply</p>
-                        <Link to={"/"}>
+                        <Link to={'/'}>
                             <button className="text-token text-white py-5 px-10 rounded-xl w-[315px] h-[57px] shadow-custom  all-center border-4 border-white">
-                                100,000,000 $PEPE
+                                100,000,000,000,000 $PEPE
                             </button>
                         </Link>
                     </div>
                     <div className="all-center flex-col">
                         <p className="text-title-token pb-1">Buys / Sells taxes</p>
-                        <Link to={"/"}>
+                        <Link to={'/'}>
                             <button className="text-token text-white py-5 px-10 rounded-xl w-[315px] h-[57px] shadow-custom  all-center border-4 border-white">
-                                0% / 0%
+                                1% / 1%
                             </button>
                         </Link>
                     </div>
-                    
+
                     <div className="all-center flex-col">
                         <p className="text-title-token pb-1">LP BRUNED</p>
-                        <Link to={"/"}>
+                        <Link to={'/'}>
                             <button className="text-token text-white py-5 px-10 rounded-xl w-[315px] h-[57px] shadow-custom  all-center border-4 border-white">
                                 98.99%
                             </button>
@@ -35,7 +35,7 @@ const Tokenmics = () => {
                 </div>
             </div>
             <div className="all-center flex-col mt-20">
-                <Link to={"/"}>
+                <Link to={'/'}>
                     <button className="text-token text-white sm:py-5 py-8 px-10 rounded-xl sm:w-[413px] w-[315px] h-[57px] shadow-custom  all-center border-4 border-white">
                         Ownership Renounced
                     </button>
