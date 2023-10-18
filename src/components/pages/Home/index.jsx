@@ -1,13 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import ItemEog from "../../../assets/item-eog.png"
+import ItemEog from "../../../assets/item-eog-2.png"
 import Tokenmics from "../Tokenmics";
 import Meet from "../Meet";
 import Footer from "../../layouts/Footer";
 
 const Home = () => {
     return (
-        <div className="bg-[#C39800] w-full h-full">
+        <div className="bg-[#00500D] w-full h-full">
             <div className="bg-custom w-full h-full">
                 <div className="all-center w-full pt-[100px] flex-col">
                     <img src={ItemEog} alt="Item EOG" className="sm:w-[400px] w-[300px]" />
