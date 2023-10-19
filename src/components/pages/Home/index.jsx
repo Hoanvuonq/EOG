@@ -17,7 +17,7 @@ const Home = () => {
                     <p className="text-content text-white text-center sm:px-0 px-2">CA: 0x2A6518Bce52Bc588094D2dEc01c8f35e39c878F8</p>
                     <p className="text-content text-white text-center sm:px-0 px-2">PEPIE THE ZOMBIE</p>
                     <div className="all-center gap-10 mt-10 lg:flex-row flex-col">
-                        <Link to={"#"} target="_blank">
+                        <Link to={"https://www.dextools.io/app/en/ether/pair-explorer/0xdf3518e29bf25c3768565e1bf83062ff79975d1c"} target="_blank">
                             <button className="bg-white text-[#432627] py-5 px-10 rounded-xl w-[315px] h-[57px] shadow-custom text-btn all-center">dextools chart</button>
                         </Link>
                         <Link to={"https://t.me/PepiePortal"} target="_blank">

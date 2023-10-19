@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c4a1fdbe.css",
-    "main.js": "/static/js/main.4038b241.js",
+    "main.js": "/static/js/main.063154e5.js",
     "static/media/background-eog-3.png": "/static/media/background-eog-3.7ab59ee135d45678b864.png",
     "static/media/avatar.jpg": "/static/media/avatar.10161bab8420277d2ffb.jpg",
     "static/media/halloween-bat 3.png": "/static/media/halloween-bat 3.a8f1b47f31ac28adbac5.png",
@@ -10,10 +10,10 @@
     "static/media/halloween-bat 4.png": "/static/media/halloween-bat 4.9753df415878519e0a53.png",
     "index.html": "/index.html",
     "main.c4a1fdbe.css.map": "/static/css/main.c4a1fdbe.css.map",
-    "main.4038b241.js.map": "/static/js/main.4038b241.js.map"
+    "main.063154e5.js.map": "/static/js/main.063154e5.js.map"
   },
   "entrypoints": [
     "static/css/main.c4a1fdbe.css",
-    "static/js/main.4038b241.js"
+    "static/js/main.063154e5.js"
   ]
 }
