@@ -14,7 +14,7 @@ const Home = () => {
                     <HalloweenBat/>
                     <img src={Avatar} alt="Item EOG" className="sm:w-[400px] w-[300px] rounded-full border-[6px] border-[#FDF436]" />
                     <h1 className="text-title text-white sm:!text-[100px] !text-[80px]">$PEPIE</h1>
-                    <p className="text-content text-white text-center sm:px-0 px-2">CA :</p>
+                    <p className="text-content text-white text-center sm:px-0 px-2">CA: 0x2A6518Bce52Bc588094D2dEc01c8f35e39c878F8</p>
                     <p className="text-content text-white text-center sm:px-0 px-2">PEPIE THE ZOMBIE</p>
                     <div className="all-center gap-10 mt-10 lg:flex-row flex-col">
                         <Link to={"#"} target="_blank">
@@ -23,7 +23,7 @@ const Home = () => {
                         <Link to={"https://t.me/PepiePortal"} target="_blank">
                             <button className="bg-white text-[#432627] py-5 px-10 rounded-xl w-[315px] h-[57px] shadow-custom text-btn all-center">telegram</button>
                         </Link>
-                        <Link to={"https://t.me/PepiePortal"} target="_blank">
+                        <Link to={"https://twitter.com/Pepie_ETH"} target="_blank">
                             <button className="bg-white text-[#432627] py-5 px-10 rounded-xl w-[315px] h-[57px] shadow-custom text-btn all-center">twitter</button>
                         </Link>
                     </div>
