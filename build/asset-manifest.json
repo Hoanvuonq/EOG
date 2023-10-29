@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.c4a1fdbe.css",
-    "main.js": "/static/js/main.063154e5.js",
-    "static/media/background-eog-3.png": "/static/media/background-eog-3.7ab59ee135d45678b864.png",
-    "static/media/avatar.jpg": "/static/media/avatar.10161bab8420277d2ffb.jpg",
-    "static/media/halloween-bat 3.png": "/static/media/halloween-bat 3.a8f1b47f31ac28adbac5.png",
-    "static/media/halloween-bat 1.png": "/static/media/halloween-bat 1.6af08666e5125e69153b.png",
-    "static/media/halloween-bat 2.png": "/static/media/halloween-bat 2.fed3798fec50c0ce79fe.png",
-    "static/media/halloween-bat 4.png": "/static/media/halloween-bat 4.9753df415878519e0a53.png",
+    "main.css": "/static/css/main.39d0732f.css",
+    "main.js": "/static/js/main.a56bfafb.js",
+    "static/media/background-eog-4.png": "/static/media/background-eog-4.886e867f0bfd38005863.png",
+    "static/media/Enfonix-DEMO.otf": "/static/media/Enfonix-DEMO.11623b455cceae92d9e4.otf",
+    "static/media/item-eog-3.png": "/static/media/item-eog-3.02614e7274927b2989f4.png",
+    "static/media/SVN-Avo.ttf": "/static/media/SVN-Avo.5d0827f05fa8942e1968.ttf",
+    "static/media/Black Bison.ttf": "/static/media/Black Bison.41e8174c96734a2bc9b7.ttf",
     "index.html": "/index.html",
-    "main.c4a1fdbe.css.map": "/static/css/main.c4a1fdbe.css.map",
-    "main.063154e5.js.map": "/static/js/main.063154e5.js.map"
+    "main.39d0732f.css.map": "/static/css/main.39d0732f.css.map",
+    "main.a56bfafb.js.map": "/static/js/main.a56bfafb.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4a1fdbe.css",
-    "static/js/main.063154e5.js"
+    "static/css/main.39d0732f.css",
+    "static/js/main.a56bfafb.js"
   ]
 }
