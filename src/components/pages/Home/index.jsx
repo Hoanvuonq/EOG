@@ -12,7 +12,7 @@ const Home = () => {
                 <div className="all-center w-full pt-[100px] flex-col">
                     <img src={Avatar} alt="Item EOG"  />
                     <h1 className="text-title text-white sm:!text-[100px] !text-[80px]">$PAGER</h1>
-                    <p className="text-content text-white text-center sm:px-0 px-2">CA :</p>
+                    <p className="text-content text-white text-center sm:px-0 px-2">CA: 0xd85A8262Fe64F3bC9b5204B65cc75C8F69ea0144</p>
                     <p className="text-content text-white text-center sm:px-0 px-2">Meeting Pager - Elon’s smart monkey</p>
                     <div className="all-center gap-10 mt-10 lg:flex-row flex-col">
                         <Link to={"#"} target="_blank">

@@ -11,7 +11,7 @@ const Tokenmics = () => {
                         <p className="text-title-token pb-1">Total Supply</p>
                         <Link to={'/'}>
                             <button className="text-token text-white py-5 px-10 rounded-xl w-[368px] h-[57px] shadow-custom  all-center border-4 blur-10 border-white">
-                                420,000,000,000  $PAGER
+                                100,000,000 $PAGER
                             </button>
                         </Link>
                     </div>
