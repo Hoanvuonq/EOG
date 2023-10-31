@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 const Tokenmics = () => {
     return (
         <>
-            <div className="all-center flex-col">
-                <h1 className="text-title-box text-white mt-32">TOKENOMICS</h1>
+            <div className="all-center flex-col Z-20">
+                <h1 className="text-title-box text-white mt-32 sm:!text-[100px] !text-[40px]">TOKENOMICS</h1>
                 <div className="all-center gap-20 lg:flex-row flex-col">
                     <div className="all-center flex-col">
                         <p className="text-title-token pb-1">Total Supply</p>

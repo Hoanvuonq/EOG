@@ -13,10 +13,24 @@
     src: url('../assets/font/SVN-Avo.ttf') format('truetype'); 
 }
 
-.bg-custom {
-    background-image: url(../assets/background-eog-4.png);
-    background-repeat: no-repeat;
+body {
+    height: 100vh;
+}
+
+.bg-custom-flower {
+    background-image: url(../assets/background-flower.png);
     background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+}
+
+.bg-flower-gradient {
+    background: linear-gradient(180deg, #FFC9E0 0%, #ED6081 100%);
 }
 
 .all-center {
@@ -48,20 +62,20 @@
 }
 
 .shadow-box {
-    box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 8px 8px 0px 0px #FFE0E0;
     transition: transform 0.1s;
 }
 
 .blur-10 {
     backdrop-filter: blur(10px);
-    background: rgb(115 227 243 / 25%);
+    background: rgb(247 181 195 / 25%);
 }
 
 .text-btn {
     font-size: 24px;
     line-height: 36px;
     font-weight: 400;
-    color: #21CAFF;
+    color: #EF6B8A;
     font-family: 'Black bison', cursive;
 }
 
