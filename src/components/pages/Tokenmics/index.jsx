@@ -6,12 +6,12 @@ const Tokenmics = () => {
         <>
             <div className="all-center flex-col Z-20">
                 <h1 className="text-title-box text-white mt-32 sm:!text-[100px] !text-[40px]">TOKENOMICS</h1>
-                <div className="all-center gap-20 lg:flex-row flex-col">
+                <div className="all-center gap-20 lg:flex-row flex-col mt-4">
                     <div className="all-center flex-col">
                         <p className="text-title-token pb-1">Total Supply</p>
                         <Link to={'/'}>
                             <button className="text-token text-white py-5 px-10 rounded-xl w-[368px] h-[57px] shadow-custom  all-center border-4 blur-10 border-white">
-                                100,000,000 $PAGER
+                                100,000,000 $PEPEAI
                             </button>
                         </Link>
                     </div>
@@ -19,13 +19,13 @@ const Tokenmics = () => {
                         <p className="text-title-token pb-1">Tax</p>
                         <Link to={'/'}>
                             <button className="text-token text-white py-5 px-10 rounded-xl w-[368px] h-[57px] shadow-custom  all-center border-4 blur-10 border-white">
-                                0% / 1%
+                                0% / 0%
                             </button>
                         </Link>
                     </div>
 
                     <div className="all-center flex-col">
-                        <p className="text-title-token pb-1">LP BURNT</p>
+                        <p className="text-title-token pb-1">LP LOCKED FOR 3 MONTHS</p>
                         <Link to={'/'}>
                             <button className="text-token text-white py-5 px-10 rounded-xl w-[368px] h-[57px] shadow-custom  all-center border-4 blur-10 border-white">
                                 98.99%

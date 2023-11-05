@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Luckiest+Guy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
 @font-face {
     font-family: 'Enfonix'; 
     src: url('../assets/font/enfonix/Enfonix-DEMO.otf') format('truetype'); 
@@ -12,22 +13,21 @@
     font-family: 'SVN-Avo'; 
     src: url('../assets/font/SVN-Avo.ttf') format('truetype'); 
 }
+@font-face {
+    font-family: 'Berlin Sans FB'; 
+    src: url('../assets/font/berlin-sans-fb-cufonfonts/BRLNSR.TTF') format('truetype'); 
+}
 
 body {
     height: 100vh;
 }
 
-.bg-custom-flower {
-    background-image: url(../assets/background-flower.png);
+.bg-custom{
+    background-image: url(../assets/bg-eog-version-5.png);
     background-size: cover;
     background-position: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 20;
 }
+
 
 .bg-flower-gradient {
     background: linear-gradient(180deg, #FFC9E0 0%, #ED6081 100%);
@@ -48,9 +48,13 @@ body {
 
 .text-content {
     font-weight: 400;
-    font-size: 48px;
+    font-size: 36px;
     line-height: 72px;
     font-family: 'SVN-Avo';
+
+    @media (min-width: 640px) {
+        font-size: 48px;
+    }
 }
 
 .shadow-custom {
@@ -62,25 +66,24 @@ body {
 }
 
 .shadow-box {
-    box-shadow: 8px 8px 0px 0px #FFE0E0;
+    box-shadow: 8px 8px 0px 0px #00000040;
     transition: transform 0.1s;
 }
 
 .blur-10 {
     backdrop-filter: blur(10px);
-    background: rgb(247 181 195 / 25%);
+    background: rgb(10 214 119 / 13%);
 }
 
 .text-btn {
     font-size: 24px;
     line-height: 36px;
     font-weight: 400;
-    color: #EF6B8A;
+    color: #432627;
     font-family: 'Black bison', cursive;
 }
 
 .text-title-box {
-    font-size: 60px;
     line-height: 90px;
     font-weight: 400;
     font-family: 'Enfonix', cursive;
@@ -90,8 +93,13 @@ body {
     font-size: 24px;
     line-height: 36px;
     font-weight: 400;
-    font-family: 'SVN-Avo';
+    font-family: ui-serif;
     text-align: justify;
+
+    @media (min-width: 640px) {
+        font-family: 'SVN-Avo';
+    }
+
 }
 
 .text-title-token {
@@ -100,7 +108,7 @@ body {
     line-height: 30px;
     text-align: center;
     color: #fff;
-    font-family: 'Enfonix';
+    font-family: 'Berlin Sans FB';
 }
 
 .text-token {
