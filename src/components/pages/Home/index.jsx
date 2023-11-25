@@ -10,7 +10,7 @@ const Home = () => {
         <div className="bg-custom w-full h-full relative z-10"> 
             <div className="bg-[#01010178] w-full h-full relative z-30">
                 <div className="all-center w-full pt-[100px] flex-col z-20">
-                     <img src={Avatar} alt="Item EOG" className="sm:w-[400px] w-[300px] sm:h-[400px] h-[300px]" />
+                    <img src={Avatar} alt="Item EOG" className="sm:w-[400px] w-[300px] sm:h-[400px] h-[300px]" />
                     <h1 className="text-title text-white sm:!text-[100px] !text-[60px]">$EOG</h1>
                     <p className="text-content text-white text-center sm:px-0 px-2">CA: </p>
                     <p className="text-content text-white text-center sm:px-0 px-2">Celebrating the OG Spirit of Vitalik Buterin</p>
