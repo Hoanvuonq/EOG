@@ -23,14 +23,9 @@ body {
 }
 
 .bg-custom{
-    background-image: url(../assets/bg-eog-version-5.png);
+    background-image: url(../assets/bg-eog-version-6.png);
     background-size: cover;
     background-position: center;
-}
-
-
-.bg-flower-gradient {
-    background: linear-gradient(180deg, #FFC9E0 0%, #ED6081 100%);
 }
 
 .all-center {
@@ -43,7 +38,7 @@ body {
     font-size: 100px;
     line-height: 150px;
     font-weight: 400;
-    font-family: 'Enfonix';
+    font-family: 'Luckiest Guy', cursive;
 }
 
 .text-content {
@@ -72,7 +67,7 @@ body {
 
 .blur-10 {
     backdrop-filter: blur(10px);
-    background: rgb(10 214 119 / 13%);
+    background: rgba(123, 125, 125, 0.13);
 }
 
 .text-btn {
@@ -86,7 +81,7 @@ body {
 .text-title-box {
     line-height: 90px;
     font-weight: 400;
-    font-family: 'Enfonix', cursive;
+    font-family: 'Luckiest Guy', cursive;
 }
 
 .text-content-box {

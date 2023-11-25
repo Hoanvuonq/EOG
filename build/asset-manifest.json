@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6fffaf97.css",
-    "main.js": "/static/js/main.ae0b9dd7.js",
-    "static/media/avatar-version-6.png": "/static/media/avatar-version-6.874de8dbbc2222a89548.png",
+    "main.css": "/static/css/main.5766d961.css",
+    "main.js": "/static/js/main.5e09ec6f.js",
+    "static/media/bg-eog-version-6.png": "/static/media/bg-eog-version-6.56ba0497cecf8fa9ebd2.png",
     "static/media/Enfonix-DEMO.otf": "/static/media/Enfonix-DEMO.11623b455cceae92d9e4.otf",
-    "static/media/bg-eog-version-5.png": "/static/media/bg-eog-version-5.f4848a533b766f70cc49.png",
+    "static/media/avatar-version-6.png": "/static/media/avatar-version-6.63b63ccca71aca66aa2b.png",
     "static/media/BRLNSR.TTF": "/static/media/BRLNSR.dc095e60ae5e90312573.TTF",
     "static/media/SVN-Avo.ttf": "/static/media/SVN-Avo.5d0827f05fa8942e1968.ttf",
     "static/media/Black Bison.ttf": "/static/media/Black Bison.41e8174c96734a2bc9b7.ttf",
     "index.html": "/index.html",
-    "main.6fffaf97.css.map": "/static/css/main.6fffaf97.css.map",
-    "main.ae0b9dd7.js.map": "/static/js/main.ae0b9dd7.js.map"
+    "main.5766d961.css.map": "/static/css/main.5766d961.css.map",
+    "main.5e09ec6f.js.map": "/static/js/main.5e09ec6f.js.map"
   },
   "entrypoints": [
-    "static/css/main.6fffaf97.css",
-    "static/js/main.ae0b9dd7.js"
+    "static/css/main.5766d961.css",
+    "static/js/main.5e09ec6f.js"
   ]
 }
