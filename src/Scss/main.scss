@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,500;1,700&display=swap');
 @font-face {
     font-family: 'Enfonix'; 
     src: url('../assets/font/enfonix/Enfonix-DEMO.otf') format('truetype'); 
@@ -17,15 +18,29 @@
     font-family: 'Berlin Sans FB'; 
     src: url('../assets/font/berlin-sans-fb-cufonfonts/BRLNSR.TTF') format('truetype'); 
 }
+@font-face {
+    font-family: 'Josefin Sans'; 
+    src: url('../assets/font/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('truetype'); 
+}
 
 body {
-    height: 100vh;
+    max-height: 100vh;
+    overflow: hidden;
+
+    @media (max-width: 768px) {
+        overflow: auto;
+    }
 }
 
 .bg-custom{
-    background-image: url(../assets/bg-eog-version-7.png);
+    background-image: url(../assets/bg-eog-version-8.png);
+    height: 100vh;
     background-size: cover;
-    background-position: center;
+    background-repeat: no-repeat;
+    
+    @media (max-width: 768px) {
+        height: auto
+    }
 }
 
 .all-center {
@@ -35,10 +50,10 @@ body {
 }
 
 .text-title {
-    font-size: 100px;
-    line-height: 150px;
-    font-weight: 400;
-    font-family: 'Luckiest Guy', cursive;
+    font-size: 140px;
+    line-height: 140px;
+    font-weight: 700;
+    font-family: 'Josefin Sans';
 }
 
 .text-content {
@@ -47,9 +62,9 @@ body {
     line-height: 72px;
     font-family: 'SVN-Avo';
 
-    @media (min-width: 640px) {
-        font-size: 48px;
-    }
+    // @media (max-width: 640px) {
+    //     font-size: 48px;
+    // }
 }
 
 .shadow-custom {
@@ -67,50 +82,70 @@ body {
 
 .blur-10 {
     backdrop-filter: blur(10px);
-    background: rgba(123, 125, 125, 0.13);
+    background: rgb(255 246 246 / 25%);
 }
 
 .text-btn {
-    font-size: 24px;
-    line-height: 36px;
-    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
     color: #432627;
-    font-family: 'Black bison', cursive;
+    font-family: 'Josefin Sans';
+
+    @media (max-width: 768px) {
+        font-size: 24px;
+        line-height: 36px;
+    }
+    
 }
 
 .text-title-box {
     line-height: 90px;
-    font-weight: 400;
-    font-family: 'Luckiest Guy', cursive;
+    font-weight: 700;
+    font-family: 'Josefin Sans';
 }
 
 .text-content-box {
-    font-size: 24px;
-    line-height: 36px;
+    font-size: 14px;
+    line-height: 28px;
     font-weight: 400;
     font-family: ui-serif;
     text-align: justify;
+    font-family: 'SVN-Avo';
 
-    @media (min-width: 640px) {
-        font-family: 'SVN-Avo';
+    @media (max-width: 768px) {
+        font-size: 32px;
+        line-height: 48px;
+        text-align: start;
     }
-
 }
 
 .text-title-token {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 30px;
-    text-align: center;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: start;
     color: #fff;
+    text-transform: uppercase;
     font-family: 'Berlin Sans FB';
+
+    @media (max-width: 768px) {
+        font-size: 22px;
+        line-height: 36px;
+    }
 }
 
 .text-token {
-    font-size: 20px;
-    line-height: 36px;
-    font-weight: 600;
-    font-family: 'SVN-Avo', cursive;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: 'Josefin Sans';
+    text-transform: uppercase;
+
+    @media (max-width: 768px) {
+        font-size: 24px;
+        line-height: 36px;
+    }
 }
 
 .text-footer {
