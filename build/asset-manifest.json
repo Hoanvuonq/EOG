@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1f0d9e6b.css",
-    "main.js": "/static/js/main.539e7a81.js",
+    "main.css": "/static/css/main.d0b40c27.css",
+    "main.js": "/static/js/main.f054a8af.js",
     "static/media/bg-eog-version-8.png": "/static/media/bg-eog-version-8.93e11e86daedf58e7a3f.png",
     "static/media/avatar-version-8.png": "/static/media/avatar-version-8.1f12e2191c5e06cf23af.png",
     "static/media/Enfonix-DEMO.otf": "/static/media/Enfonix-DEMO.11623b455cceae92d9e4.otf",
@@ -11,11 +11,11 @@
     "static/media/eog.png": "/static/media/eog.9cf12f5d6bbbc891a502.png",
     "static/media/Black Bison.ttf": "/static/media/Black Bison.41e8174c96734a2bc9b7.ttf",
     "index.html": "/index.html",
-    "main.1f0d9e6b.css.map": "/static/css/main.1f0d9e6b.css.map",
-    "main.539e7a81.js.map": "/static/js/main.539e7a81.js.map"
+    "main.d0b40c27.css.map": "/static/css/main.d0b40c27.css.map",
+    "main.f054a8af.js.map": "/static/js/main.f054a8af.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f0d9e6b.css",
-    "static/js/main.539e7a81.js"
+    "static/css/main.d0b40c27.css",
+    "static/js/main.f054a8af.js"
   ]
 }

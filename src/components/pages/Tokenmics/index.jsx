@@ -21,7 +21,7 @@ const splitAddress = (address, options) => {
   };
 
 const Tokenmics = () => {
-    const contractAddress = '0x4938e35e85905e9ab7a23fe9eddac39e3d91649a';
+    const contractAddress = ''; 
     const buttonRef = useRef(null);
   
     useEffect(() => {
@@ -59,7 +59,7 @@ const Tokenmics = () => {
                         <p className="text-title-token pb-1">Total Supply</p>
                         <Link to={'/'}>
                             <button className="text-token u text-white py-5 px-10 md:w-[315px] w-[360px] md:h-10 h-20 shadow-custom all-center border-4 blur-10 border-white">
-                                100,000,000 $PM1
+                                420,000,000 $PM1
                             </button>
                         </Link>
                     </div>
@@ -67,19 +67,19 @@ const Tokenmics = () => {
                         <p className="text-title-token pb-1">LP Burnt</p>
                         <Link to={'/'}>
                             <button className="text-token text-white py-5 px-10 md:w-[315px] w-[360px] md:h-10 h-20 shadow-custom all-center border-4 blur-10 border-white">
-                                0% / 0%
+                                FOREVER
                             </button>
                         </Link>
                     </div>
 
-                    <div className="flex flex-col">
+                    {/* <div className="flex flex-col">
                         <p className="text-title-token pb-1">LP Locked 3 months</p>
                         <Link to={'/'}>
                             <button className="text-token text-white py-5 px-10 md:w-[315px] w-[360px] md:h-10 h-20 shadow-custom all-center border-4 blur-10 border-white">
                                 $3000BCE
                             </button>
                         </Link>
-                    </div>
+                    </div> */}
 
                     <div className="flex flex-col">
                         <p className="text-title-token pb-1">Ownership</p>

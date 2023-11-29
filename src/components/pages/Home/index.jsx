@@ -28,7 +28,7 @@ const Home = () => {
                                 <button className="bg-white py-5 px-10 md:w-[280px] w-[360px] md:h-9 h-16 uppercase shadow-custom text-btn all-center">Discord</button>
                             </Link>
                         </div>
-                        <img src={EOG} alt="EOG" className="w-[600px] h-[200px] md:block hidden" />
+                        <img src={EOG} alt="EOG" className="w-[600px] h-[200px] hidden" />
                    </div>
                    <div className="md:hidden block py-10">
                         <Meet/>
