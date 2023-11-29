@@ -18,10 +18,10 @@ const Home = () => {
                             <Link to={"#"} target="_blank">
                                 <button className="bg-white py-5 px-10 md:w-[280px] w-[360px] md:h-9 h-16 uppercase shadow-custom text-btn all-center">dextools chart</button>
                             </Link>
-                            <Link to={"#"} target="_blank">
+                            <Link to={"https://t.me/MissionPm1"} target="_blank">
                                 <button className="bg-white py-5 px-10 md:w-[280px] w-[360px] md:h-9 h-16 uppercase shadow-custom text-btn all-center">telegram</button>
                             </Link>
-                            <Link to={"#"} target="_blank">
+                            <Link to={"https://twitter.com/MissionPm1"} target="_blank">
                                 <button className="bg-white py-5 px-10 md:w-[280px] w-[360px] md:h-9 h-16 uppercase shadow-custom text-btn all-center">twitter</button>
                             </Link>
                             <Link to={"#"} target="_blank">
