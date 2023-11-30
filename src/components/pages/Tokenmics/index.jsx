@@ -21,7 +21,7 @@ const splitAddress = (address, options) => {
   };
 
 const Tokenmics = () => {
-    const contractAddress = '0x786A2e06EBC4b4679393977616ab911946Fdcbea'; 
+    const contractAddress = ''; 
     const buttonRef = useRef(null);
   
     useEffect(() => {
@@ -38,7 +38,7 @@ const Tokenmics = () => {
 
     return (
         <>
-            <div className="flex-col z-20 md:pt-0 pt-20 md:pl-40 pl-0 md:pb-0 pb-10">
+            <div className="flex-col z-20 md:pt-0 pt-20 md:pl-44 pl-0 md:pb-0 pb-10">
             <h1 className="text-title-box text-white md:text-start text-center md:text-5xl text-6xl">Tokenomic</h1>
                 <div className="all-center md:!items-start !items-center md:gap-3 gap-4 flex-col md:-mt-3 mt-10">
                     <div className="flex md:gap-2 gap-4 md:flex-row flex-col">
@@ -46,7 +46,7 @@ const Tokenmics = () => {
                             {/* <p className="text-title-token pb-1">Total Supply</p> */}
                             <Link to={'/'}>
                                 <button className="text-token text-white py-5 pl-5 md:w-[320px] w-[415px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 rounded-xl blur-20 border-white">
-                                        <p className='!font-normal'>Total Supply</p>  -  211,200,500 $KABOSU
+                                        <p className='!font-normal'>Total Supply</p>  -  69,000,000 $SMOON
                                 </button>
                             </Link>
                         </div>

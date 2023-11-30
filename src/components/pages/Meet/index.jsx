@@ -2,18 +2,14 @@ import React from 'react';
 
 const Meet = () => {
     return (
-        <div className="all-center w-full z-20 md:pl-40 pl-0">
+        <div className="all-center w-full z-20 md:pl-44 pl-0">
             <div className="flex-col m-auto md:max-w-full max-w-[80%]">
-                <h1 className="text-title-box text-white md:text-start text-center md:text-5xl text-6xl">ABOUT $KABOSU</h1>
+                <h1 className="text-title-box text-white md:text-start text-center md:text-5xl text-6xl">ABOUT $SMOON</h1>
                 <p className="text-content-box md:!text-start !text-justify  md:text-black text-white md:-mt-3 mt-4">
-                    Kabosu is a female Shiba Inu dog from Japan who became famous online as the face of "Doge," 
-                    an internet meme that gained widespread popularity. The meme typically features photos of 
-                    Kabosu with multicolored text in Comic Sans font surrounding her face. The text usually 
-                    consists of short, broken English phrases that humorously represent her thoughts. Kabosu's 
-                    charming expressions and the quirky style of the meme contributed significantly to its appeal, 
-                    turning her into an iconic figure in internet culture. Kabosu was adopted by her owner, Atsuko 
-                    Sato, a Japanese kindergarten teacher, who shared her photos on a personal blog, from where they 
-                    eventually went viral and became the Doge meme.
+                    When you mix the financial guru, Michael J. Saylor with the whimsical world of Sailor Moon, you get Saylor Moon. 
+                    Join her enchanting vibe in a cosmic party where we ride alongside Saylors position to new heights.Take all your 
+                    money buy $SMOON, then take all your time, figure out how to borrow more money to buy more $SMOON. Then take all 
+                    your time to figure out what you can sell to buy more $SMOON.
                 </p>
             </div>
         </div>
