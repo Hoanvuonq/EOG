@@ -21,7 +21,7 @@ const splitAddress = (address, options) => {
   };
 
 const Tokenmics = () => {
-    const contractAddress = '0x786A2e06EBC4b4679393977616ab911946Fdcbea'; 
+    const contractAddress = ''; 
     const buttonRef = useRef(null);
   
     useEffect(() => {
@@ -80,7 +80,7 @@ const Tokenmics = () => {
                 </div>
                 <div className="gap-2 cursor-pointer all-center md:mt-3 mt-4 ">
                     <p className="text-address items-center flex gap-2 md:!text-black !text-white pb-1 ">
-                        Contract -  <p ref={buttonRef} data-clipboard-text={contractAddress}>
+                        Contract Address -  <p ref={buttonRef} data-clipboard-text={contractAddress}>
                             {splitAddress(contractAddress, { numSplit: 10 })}
                             
                             </p>
