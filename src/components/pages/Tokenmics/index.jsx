@@ -21,7 +21,7 @@ const splitAddress = (address, options) => {
   };
 
 const Tokenmics = () => {
-    const contractAddress = ''; 
+    const contractAddress = '0x786A2e06EBC4b4679393977616ab911946Fdcbea'; 
     const buttonRef = useRef(null);
   
     useEffect(() => {
@@ -38,57 +38,56 @@ const Tokenmics = () => {
 
     return (
         <>
-            <div className="all-center flex-col z-20 md:pt-0 pt-10">
-            {/* <p className="text-contentz text-white text-center sm:!text-base !text-xl max-w-[80%] overflow-hidden text-ellipsis whitespace-nowrap"> Contract Address : 0x4938e35e85905e9ab7a23fe9eddac39e3d91649a</p> */}
-                <div className="all-center md:gap-3 gap-10 flex-col">
-                    <div className="flex flex-col">
-                        <p className="text-title-token pb-1">Contract Address</p>
-                        <Link to={'/'}>
-                            <button
-                                ref={buttonRef}
-                                className="text-token u text-white py-5 px-10 md:w-[315px] w-[360px] md:h-10 h-20 shadow-custom all-center border-4 blur-10 border-white"
-                                data-clipboard-text={contractAddress}
-                                >
-                                {splitAddress(contractAddress, { numSplit: 5 })}
-                             
-                                <img src={IconCoppy} width={20} height={20} alt="Icon Coppy" className="ml-2"/>
-                            </button>
-                        </Link>
+            <div className="flex-col z-20 md:pt-0 pt-20 md:pl-40 pl-0 md:pb-0 pb-10">
+            <h1 className="text-title-box text-white md:text-start text-center md:text-5xl text-6xl">Tokenomic</h1>
+                <div className="all-center md:!items-start !items-center md:gap-3 gap-4 flex-col md:-mt-3 mt-10">
+                    <div className="flex md:gap-2 gap-4 md:flex-row flex-col">
+                        <div className="flex flex-col">
+                            {/* <p className="text-title-token pb-1">Total Supply</p> */}
+                            <Link to={'/'}>
+                                <button className="text-token text-white py-5 pl-5 md:w-[320px] w-[415px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 rounded-xl blur-20 border-white">
+                                        <p className='!font-normal'>Total Supply</p>  -  211,200,500 $KABOSU
+                                </button>
+                            </Link>
+                        </div>
+                        <div className="flex flex-col">
+                            {/* <p className="text-title-token pb-1 ">Total Supply</p> */}
+                            <Link to={'/'}>
+                                <button className="text-token text-white py-5 pl-5 md:w-[160px] w-[415px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 rounded-xl blur-20 border-white">
+                                    <p className='!font-normal'>TAXT</p> -  0% / 0%
+                                </button>
+                            </Link>
+                        </div>
                     </div>
+                   <div className="flex md:gap-2 gap-4 md:flex-row flex-col">
                     <div className="flex flex-col">
-                        <p className="text-title-token pb-1">Total Supply</p>
-                        <Link to={'/'}>
-                            <button className="text-token u text-white py-5 px-10 md:w-[315px] w-[360px] md:h-10 h-20 shadow-custom all-center border-4 blur-10 border-white">
-                                420,000,000 $PM1
-                            </button>
-                        </Link>
-                    </div>
-                    <div className="flex flex-col">
-                        <p className="text-title-token pb-1">LP Burnt</p>
-                        <Link to={'/'}>
-                            <button className="text-token text-white py-5 px-10 md:w-[315px] w-[360px] md:h-10 h-20 shadow-custom all-center border-4 blur-10 border-white">
-                                FOREVER
-                            </button>
-                        </Link>
-                    </div>
-
-                    {/* <div className="flex flex-col">
-                        <p className="text-title-token pb-1">LP Locked 3 months</p>
-                        <Link to={'/'}>
-                            <button className="text-token text-white py-5 px-10 md:w-[315px] w-[360px] md:h-10 h-20 shadow-custom all-center border-4 blur-10 border-white">
-                                $3000BCE
-                            </button>
-                        </Link>
-                    </div> */}
-
-                    <div className="flex flex-col">
-                        <p className="text-title-token pb-1">Ownership</p>
-                        <Link to={'/'}>
-                            <button className="text-token text-white py-5 px-10 md:w-[315px] w-[360px] md:h-10 h-20 shadow-custom all-center border-4 blur-10 border-white">
-                                Ownership Renounced
-                            </button>
-                        </Link>
-                    </div>
+                            {/* <p className="text-title-token pb-1">TAXt</p> */}
+                            <Link to={'/'}>
+                                <button className="text-token text-white py-5 pl-5 md:w-[240px] w-[415px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 rounded-xl blur-20 border-white">
+                                    <p className='!font-normal'>LP BURNT</p> -  FOREVER
+                                </button>
+                            </Link>
+                        </div>
+                        <div className="flex flex-col">
+                            {/* <p className="text-title-token pb-1">Ownership</p> */}
+                            <Link to={'/'}>
+                                <button className="text-token text-white py-5 pl-5 md:w-[240px] w-[415px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 rounded-xl blur-20 border-white">
+                                    Ownership Renounced
+                                </button>
+                            </Link>
+                        </div>
+                   </div>
+                </div>
+                <div className="gap-2 cursor-pointer all-center md:mt-2 mt-4 ">
+                    <p className="text-address items-center flex gap-2 md:!text-black !text-white pb-1 ">
+                        Contract -  <p ref={buttonRef} data-clipboard-text={contractAddress}>
+                            {splitAddress(contractAddress, { numSplit: 10 })}
+                            
+                            </p>
+                            <img src={IconCoppy} width={14} height={14} alt="Icon Coppy" className="ml-2"/> 
+                        
+                    </p>
+                        
                 </div>
             </div>
         </>

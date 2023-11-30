@@ -5,8 +5,8 @@ import IconTwitter from "../../../assets/icon-twitter.png"
 
 const Footer = () => {
     return (
-        <div className="flex justify-between border-t border-[#482C27] blur-10 w-full h-20 mt-[78px] py-4 px-[20px] sm:px-[60px] items-center">
-            <p className="text-footer">$EOG © 2023. ALL RIGHTS RESERVED</p>
+        <div className="flex justify-between w-full py-4 px-[20px] sm:px-[60px] items-center absolute bottom-0">
+            <p className="text-footer"></p>
             <div className="flex gap-2">
                 <Link to={"#"} target="_blank">
                     <img src={IconTele} alt="Icon Telegram" width={46} height={46} className="scale-icon"/>

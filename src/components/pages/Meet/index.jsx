@@ -2,14 +2,18 @@ import React from 'react';
 
 const Meet = () => {
     return (
-        <div className="md:w-[36%] w-full z-20">
-            <div className="flex-col md:mt-40 mt-0 all-center md:max-w-full max-w-[70%] m-auto">
-                <h1 className="text-title-box text-white text-start text-5xl sm:text-6xl">ABOUT US</h1>
-                <p className="text-content-box text-white pt-2">
-                Dogecoin On The Moon Update Exciting news for the Dogecoin community! 
-                Astrobotic plans to send a physical Dogecoin to the moon in the DHL 
-                Moonbox via ULA's Vulcan Centaur Rocket on 12/23/2023. Funded by our 
-                community in 2015, this mission embodies collective effort!
+        <div className="all-center w-full z-20 md:pl-40 pl-0">
+            <div className="flex-col m-auto md:max-w-full max-w-[80%]">
+                <h1 className="text-title-box text-white md:text-start text-center md:text-5xl text-6xl">ABOUT $KABOSU</h1>
+                <p className="text-content-box md:!text-start !text-justify  md:text-black text-white md:-mt-3 mt-4">
+                    Kabosu is a female Shiba Inu dog from Japan who became famous online as the face of "Doge," 
+                    an internet meme that gained widespread popularity. The meme typically features photos of 
+                    Kabosu with multicolored text in Comic Sans font surrounding her face. The text usually 
+                    consists of short, broken English phrases that humorously represent her thoughts. Kabosu's 
+                    charming expressions and the quirky style of the meme contributed significantly to its appeal, 
+                    turning her into an iconic figure in internet culture. Kabosu was adopted by her owner, Atsuko 
+                    Sato, a Japanese kindergarten teacher, who shared her photos on a personal blog, from where they 
+                    eventually went viral and became the Doge meme.
                 </p>
             </div>
         </div>

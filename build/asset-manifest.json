@@ -1,21 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.d0b40c27.css",
-    "main.js": "/static/js/main.ff9cc9da.js",
-    "static/media/bg-eog-version-8.png": "/static/media/bg-eog-version-8.93e11e86daedf58e7a3f.png",
-    "static/media/avatar-version-8.png": "/static/media/avatar-version-8.1f12e2191c5e06cf23af.png",
+    "main.css": "/static/css/main.8223c3b6.css",
+    "main.js": "/static/js/main.14839abe.js",
+    "static/media/bg-eog-version-9.png": "/static/media/bg-eog-version-9.2bfc2379d7bf57ab368c.png",
+    "static/media/avatar-version-9.png": "/static/media/avatar-version-9.b92afcdc8d58e6506fa3.png",
     "static/media/Enfonix-DEMO.otf": "/static/media/Enfonix-DEMO.11623b455cceae92d9e4.otf",
     "static/media/JosefinSans-VariableFont_wght.ttf": "/static/media/JosefinSans-VariableFont_wght.613585db06f849ca7717.ttf",
     "static/media/BRLNSR.TTF": "/static/media/BRLNSR.dc095e60ae5e90312573.TTF",
     "static/media/SVN-Avo.ttf": "/static/media/SVN-Avo.5d0827f05fa8942e1968.ttf",
+    "static/media/design-kabosu-7.png": "/static/media/design-kabosu-7.c8680bdf9a8b86437e15.png",
+    "static/media/design-kabosu-6.png": "/static/media/design-kabosu-6.1ac2f34be40dc718894c.png",
+    "static/media/design-kabosu-8.png": "/static/media/design-kabosu-8.c57f37c7be1b67fee301.png",
+    "static/media/design-kabosu-4.png": "/static/media/design-kabosu-4.9974586dbb38fe2f822a.png",
+    "static/media/design-kabosu-1.png": "/static/media/design-kabosu-1.19807ab77b5f040d1170.png",
+    "static/media/design-kabosu-3.png": "/static/media/design-kabosu-3.ee9a40e3eac738f0550f.png",
+    "static/media/design-kabosu-9.png": "/static/media/design-kabosu-9.0cd97b14085077482d25.png",
+    "static/media/design-kabosu-2.png": "/static/media/design-kabosu-2.9849e40bcf741a87f911.png",
+    "static/media/design-kabosu-5.png": "/static/media/design-kabosu-5.89a038ad01806e0edb1c.png",
     "static/media/eog.png": "/static/media/eog.9cf12f5d6bbbc891a502.png",
     "static/media/Black Bison.ttf": "/static/media/Black Bison.41e8174c96734a2bc9b7.ttf",
     "index.html": "/index.html",
-    "main.d0b40c27.css.map": "/static/css/main.d0b40c27.css.map",
-    "main.ff9cc9da.js.map": "/static/js/main.ff9cc9da.js.map"
+    "main.8223c3b6.css.map": "/static/css/main.8223c3b6.css.map",
+    "main.14839abe.js.map": "/static/js/main.14839abe.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0b40c27.css",
-    "static/js/main.ff9cc9da.js"
+    "static/css/main.8223c3b6.css",
+    "static/js/main.14839abe.js"
   ]
 }
