@@ -78,7 +78,7 @@ const Tokenmics = () => {
                         </div>
                    </div>
                 </div>
-                <div className="gap-2 cursor-pointer all-center md:mt-2 mt-4 ">
+                <div className="gap-2 cursor-pointer all-center md:mt-3 mt-4 ">
                     <p className="text-address items-center flex gap-2 md:!text-black !text-white pb-1 ">
                         Contract -  <p ref={buttonRef} data-clipboard-text={contractAddress}>
                             {splitAddress(contractAddress, { numSplit: 10 })}

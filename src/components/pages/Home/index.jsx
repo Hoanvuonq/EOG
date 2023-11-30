@@ -21,10 +21,10 @@ const Home = () => {
                             <Link to={"#"} target="_blank">
                                 <button className="py-5 px-10 md:w-[280px] w-[360px] md:h-9 rounded-xl border-4 border-white !text-white blur-10 h-16 uppercase shadow-custom text-btn all-center">dextools chart</button>
                             </Link>
-                            <Link to={"https://t.me/MissionPm1"} target="_blank">
+                            <Link to={"https://t.me/KabosuERC20_Portal"} target="_blank">
                                 <button className="py-5 px-10 md:w-[280px] w-[360px] md:h-9 rounded-xl border-4 border-white !text-white blur-10 h-16 uppercase shadow-custom text-btn all-center">telegram</button>
                             </Link>
-                            <Link to={"https://twitter.com/MissionPm1"} target="_blank">
+                            <Link to={"https://twitter.com/KabosuERC20_"} target="_blank">
                                 <button className="py-5 px-10 md:w-[280px] w-[360px] md:h-9 rounded-xl border-4 border-white !text-white blur-10 h-16 uppercase shadow-custom text-btn all-center">twitter</button>
                             </Link>
                             <Link to={"#"} target="_blank">
