@@ -13,7 +13,7 @@ const Home = () => {
     return (
         <div className="w-full h-full relative z-10"> 
             <div className="bg-custom w-full h-full relative z-30">
-                <div className="absolute w-full justify-between px-10 pt-1 z-30 md:flex hidden">
+                <div className="absolute w-full justify-between pt-1 z-30 md:flex hidden">
                     <img src={Isolation1} alt="Isolation 01" width={600} height={138}/>
                     <img src={Isolation2} alt="Isolation 02" width={600} height={138}/>
                 </div>
