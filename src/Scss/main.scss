@@ -42,7 +42,9 @@ body {
         height: auto
     }
 }
-
+.bg-avatar {
+    background: linear-gradient(rgba(255, 227, 99, 1), rgba(254, 173, 17, 1));
+}
 .all-center {
     display: flex;
     justify-content: center;
