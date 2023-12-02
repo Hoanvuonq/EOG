@@ -4,7 +4,7 @@ const Meet = () => {
     return (
         <div className="all-center w-full z-20 md:pl-40 pl-0">
             <div className="flex-col m-auto md:max-w-full max-w-[80%]">
-                <h1 className="text-title-box text-white md:text-start text-center md:text-5xl text-6xl">ABOUT $XMASS</h1>
+                <h1 className="text-title-box text-white md:text-start text-center md:text-5xl text-6xl">XMASS</h1>
                 <p className="text-content-box md:!text-start !text-justify  md:text-black text-white md:-mt-3 mt-4">
                     Are you hanging up a stocking on your wall?
                     It's the time that every Santa has a ball
