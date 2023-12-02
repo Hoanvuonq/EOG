@@ -1,32 +1,29 @@
 {
   "files": {
-    "main.css": "/static/css/main.c105f0cf.css",
-    "main.js": "/static/js/main.0dfb4989.js",
-    "static/media/bg-eog-version-9.png": "/static/media/bg-eog-version-9.e5bd7d4f6c27ae3556a1.png",
+    "main.css": "/static/css/main.f93574e2.css",
+    "main.js": "/static/js/main.727a6f0b.js",
+    "static/media/bg-eog-version-11.png": "/static/media/bg-eog-version-11.91b30fa4b0801b7c71f7.png",
     "static/media/Enfonix-DEMO.otf": "/static/media/Enfonix-DEMO.11623b455cceae92d9e4.otf",
+    "static/media/avatar-version-11.jpg": "/static/media/avatar-version-11.93af544d25631d327f72.jpg",
     "static/media/JosefinSans-VariableFont_wght.ttf": "/static/media/JosefinSans-VariableFont_wght.613585db06f849ca7717.ttf",
-    "static/media/avatar-version-9.png": "/static/media/avatar-version-9.63a1f388b17e9846a0a2.png",
     "static/media/BRLNSR.TTF": "/static/media/BRLNSR.dc095e60ae5e90312573.TTF",
     "static/media/SVN-Avo.ttf": "/static/media/SVN-Avo.5d0827f05fa8942e1968.ttf",
-    "static/media/design-kabosu-12.png": "/static/media/design-kabosu-12.8a8520ee92d904f77a21.png",
-    "static/media/design-kabosu-11.png": "/static/media/design-kabosu-11.d01d1a15df18a6ade17f.png",
-    "static/media/design-kabosu-7.png": "/static/media/design-kabosu-7.c8680bdf9a8b86437e15.png",
-    "static/media/design-kabosu-6.png": "/static/media/design-kabosu-6.1ac2f34be40dc718894c.png",
-    "static/media/design-kabosu-8.png": "/static/media/design-kabosu-8.c57f37c7be1b67fee301.png",
-    "static/media/design-kabosu-4.png": "/static/media/design-kabosu-4.9974586dbb38fe2f822a.png",
-    "static/media/design-kabosu-1.png": "/static/media/design-kabosu-1.19807ab77b5f040d1170.png",
-    "static/media/design-kabosu-3.png": "/static/media/design-kabosu-3.ee9a40e3eac738f0550f.png",
-    "static/media/design-kabosu-9.png": "/static/media/design-kabosu-9.0cd97b14085077482d25.png",
-    "static/media/design-kabosu-2.png": "/static/media/design-kabosu-2.9849e40bcf741a87f911.png",
-    "static/media/design-kabosu-5.png": "/static/media/design-kabosu-5.89a038ad01806e0edb1c.png",
     "static/media/eog.png": "/static/media/eog.9cf12f5d6bbbc891a502.png",
+    "static/media/design-kabosu-7.png": "/static/media/design-kabosu-7.482528c933935c45064e.png",
+    "static/media/design-kabosu-6.png": "/static/media/design-kabosu-6.9bd3f5b53b2ea358e604.png",
+    "static/media/design-kabosu-1.png": "/static/media/design-kabosu-1.45b4d8e46a2384dc1874.png",
+    "static/media/design-kabosu-3.png": "/static/media/design-kabosu-3.b803271889602a2f72fa.png",
+    "static/media/design-kabosu-8.png": "/static/media/design-kabosu-8.3ed6ba60926ad6dd4c00.png",
+    "static/media/design-kabosu-4.png": "/static/media/design-kabosu-4.ecb33e15522f4bad2b26.png",
+    "static/media/design-kabosu-2.png": "/static/media/design-kabosu-2.b85cf304feb8c6c7acaf.png",
+    "static/media/design-kabosu-9.png": "/static/media/design-kabosu-9.0bae7e02ab3ae4a6ace8.png",
     "static/media/Black Bison.ttf": "/static/media/Black Bison.41e8174c96734a2bc9b7.ttf",
     "index.html": "/index.html",
-    "main.c105f0cf.css.map": "/static/css/main.c105f0cf.css.map",
-    "main.0dfb4989.js.map": "/static/js/main.0dfb4989.js.map"
+    "main.f93574e2.css.map": "/static/css/main.f93574e2.css.map",
+    "main.727a6f0b.js.map": "/static/js/main.727a6f0b.js.map"
   },
   "entrypoints": [
-    "static/css/main.c105f0cf.css",
-    "static/js/main.0dfb4989.js"
+    "static/css/main.f93574e2.css",
+    "static/js/main.727a6f0b.js"
   ]
 }

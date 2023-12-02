@@ -38,20 +38,18 @@ const Tokenmics = () => {
 
     return (
         <>
-            <div className="flex-col z-20 md:pt-0 pt-20 md:pl-40 pl-0 md:pb-0 pb-10">
+            <div className="flex-col z-20 md:pt-20 pt-20 md:pl-40 pl-0 md:pb-0 pb-10">
             <h1 className="text-title-box text-white md:text-start text-center md:text-5xl text-6xl">Tokenomic</h1>
                 <div className="all-center md:!items-start !items-center md:gap-3 gap-4 flex-col md:-mt-3 mt-10">
                     <div className="flex md:gap-2 gap-4 md:flex-row flex-col">
                         <div className="flex flex-col">
-                            {/* <p className="text-title-token pb-1">Total Supply</p> */}
                             <Link to={'/'}>
                                 <button className="text-token text-white py-5 pl-5 md:w-[320px] w-[415px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 rounded-xl blur-20 border-white">
-                                        <p className='!font-normal'>Total Supply</p>  -  211,200,500 $KABOSU
+                                        <p className='!font-normal'>Total Supply</p>  -  211,200,500 $UP
                                 </button>
                             </Link>
                         </div>
                         <div className="flex flex-col">
-                            {/* <p className="text-title-token pb-1 ">Total Supply</p> */}
                             <Link to={'/'}>
                                 <button className="text-token text-white py-5 pl-5 md:w-[160px] w-[415px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 rounded-xl blur-20 border-white">
                                     <p className='!font-normal'>TAXT</p> -  0% / 0%
@@ -61,7 +59,6 @@ const Tokenmics = () => {
                     </div>
                    <div className="flex md:gap-2 gap-4 md:flex-row flex-col">
                     <div className="flex flex-col">
-                            {/* <p className="text-title-token pb-1">TAXt</p> */}
                             <Link to={'/'}>
                                 <button className="text-token text-white py-5 pl-5 md:w-[240px] w-[415px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 rounded-xl blur-20 border-white">
                                     <p className='!font-normal'>LP BURNT</p> -  FOREVER
@@ -69,7 +66,6 @@ const Tokenmics = () => {
                             </Link>
                         </div>
                         <div className="flex flex-col">
-                            {/* <p className="text-title-token pb-1">Ownership</p> */}
                             <Link to={'/'}>
                                 <button className="text-token text-white py-5 pl-5 md:w-[240px] w-[415px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 rounded-xl blur-20 border-white">
                                     Ownership Renounced
@@ -85,9 +81,7 @@ const Tokenmics = () => {
                             
                             </p>
                             <img src={IconCoppy} width={14} height={14} alt="Icon Coppy" className="ml-2"/> 
-                        
                     </p>
-                        
                 </div>
             </div>
         </>

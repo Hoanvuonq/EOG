@@ -8,12 +8,11 @@ import KaBoSu6 from '../../../assets/design-kabosu-6.png'
 import KaBoSu7 from '../../../assets/design-kabosu-7.png'
 import KaBoSu8 from '../../../assets/design-kabosu-8.png'
 import KaBoSu9 from '../../../assets/design-kabosu-9.png'
-import KaBoSu10 from '../../../assets/design-kabosu-10.png'
 
 const DesignKaBoSu = () => {
   return (
     <div className='md:block hidden'>
-      <div className='bg-[#FF9213] h-[998px rounded-3xl absolute w-[50%] h-[80%] top-16 left-28 p-7 flex gap-2 z-20 '>
+      <div className='bg-[#046E32] h-[998px rounded-3xl absolute w-[50%] h-[80%] top-16 left-28 p-7 flex gap-2 z-20 '>
         <img src={KaBoSu1} alt="Design" className=' h-full w-[10%]'/>
         <img src={KaBoSu2} alt="Design" className=' h-full w-[10%]'/>
         <img src={KaBoSu3} alt="Design" className=' h-full w-[10%]'/>
@@ -24,7 +23,7 @@ const DesignKaBoSu = () => {
         <img src={KaBoSu8} alt="Design" className=' h-full w-[10%]'/>
         <img src={KaBoSu9} alt="Design" className=' h-full w-[10%]'/>
       </div>
-      <img src={KaBoSu10} alt="Design" className='h-full w-[30%] absolute z-10 right-[40%]'/>
+      <div className="bg-design h-full w-[30%] absolute z-10 right-[40%]"></div>
     </div>
   )
 }

@@ -33,7 +33,7 @@ body {
 }
 
 .bg-custom{
-    background-image: url(../assets/bg-eog-version-9.png);
+    background-image: url(../assets/bg-eog-version-11.png);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -42,8 +42,13 @@ body {
         height: auto
     }
 }
+
 .bg-avatar {
     background: linear-gradient(rgba(255, 227, 99, 1), rgba(254, 173, 17, 1));
+}
+
+.bg-design {
+    background: rgb(46 44 44 / 13%);
 }
 .all-center {
     display: flex;
@@ -83,7 +88,7 @@ body {
     background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3));
 }
 .blur-20 {
-    background: rgba(194, 130, 55, 0.2);
+    background: rgba(81, 194, 55, 0.2);
 }
 
 
