@@ -22,7 +22,7 @@ const Home = () => {
                     <div className="bg-avatar relative md:w-[400px] w-[440px] md:h-[400px] h-[440px] md:mt-0 mt-20 md:right-[24%] right-0 z-40 all-center border-8 rounded-2xl border-white">
                         <img src={Avatar} alt="Item EOG" className="md:w-[340px] w-[380px] md:h-[340px] h-[380px] rounded-2xl all-center" />
                     </div>
-                    <h1 className="text-title text-white with-shadow md:absolute relative top-20 md:right-96 right-0 md:hidden block">$KABOSU</h1>
+                    <h1 className="text-title text-white with-shadow md:absolute relative top-20 md:right-96 right-0 md:hidden block">$DOGECOIN</h1>
                    <div className="md:absolute relative top-0 md:hidden flex w-full md:justify-between justify-center px-10 md:pt-5 pt-32">
                         <div className="all-center md:gap-6 gap-10 flex-col">
                             <Link to={"#"} target="_blank">
