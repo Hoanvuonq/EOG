@@ -1,31 +1,33 @@
 import React from 'react'
-import KaBoSu1 from '../../../assets/design-kabosu-1.png'
-import KaBoSu2 from '../../../assets/design-kabosu-2.png'
-import KaBoSu3 from '../../../assets/design-kabosu-3.png'
-import KaBoSu4 from '../../../assets/design-kabosu-4.png'
-import KaBoSu5 from '../../../assets/design-kabosu-5.png'
-import KaBoSu6 from '../../../assets/design-kabosu-6.png'
-import KaBoSu7 from '../../../assets/design-kabosu-7.png'
-import KaBoSu8 from '../../../assets/design-kabosu-8.png'
-import KaBoSu9 from '../../../assets/design-kabosu-9.png'
+import Design1 from '../../../assets/design-1.png'
+import Design2 from '../../../assets/design-2.png'
+import Design3 from '../../../assets/design-3.png'
+import Design4 from '../../../assets/design-4.png'
+import Design5 from '../../../assets/design-5.png'
+import Design6 from '../../../assets/design-6.png'
+import Design7 from '../../../assets/design-7.png'
+import Design8 from '../../../assets/design-8.png'
+import Design9 from '../../../assets/design-9.png'
+import Design10 from '../../../assets/design-10.png'
 
-const DesignKaBoSu = () => {
+const Design = () => {
   return (
     <div className='md:block hidden'>
-      <div className='bg-[#046E32] h-[998px rounded-3xl absolute w-[50%] h-[80%] top-16 left-28 p-7 flex gap-2 z-20 '>
-        <img src={KaBoSu1} alt="Design" className=' h-full w-[10%]'/>
-        <img src={KaBoSu2} alt="Design" className=' h-full w-[10%]'/>
-        <img src={KaBoSu3} alt="Design" className=' h-full w-[10%]'/>
-        <img src={KaBoSu4} alt="Design" className=' h-full w-[10%]'/>
-        <img src={KaBoSu5} alt="Design" className=' h-full w-[10%]'/>
-        <img src={KaBoSu6} alt="Design" className=' h-full w-[10%]'/>
-        <img src={KaBoSu7} alt="Design" className=' h-full w-[10%]'/>
-        <img src={KaBoSu8} alt="Design" className=' h-full w-[10%]'/>
-        <img src={KaBoSu9} alt="Design" className=' h-full w-[10%]'/>
+      <div className='bg-[#002AB0] h-[998px rounded-3xl absolute w-[60%] h-[80%] top-16 left-28 p-7 flex gap-2 z-20 '>
+        <img src={Design1} alt="Design" className=' h-full w-[10%]' />
+        <img src={Design2} alt="Design" className=' h-full w-[10%]' />
+        <img src={Design3} alt="Design" className=' h-full w-[10%]' />
+        <img src={Design4} alt="Design" className=' h-full w-[10%]' />
+        <img src={Design5} alt="Design" className=' h-full w-[10%]' />
+        <img src={Design6} alt="Design" className=' h-full w-[10%]' />
+        <img src={Design7} alt="Design" className=' h-full w-[10%]' />
+        <img src={Design8} alt="Design" className=' h-full w-[10%]' />
+        <img src={Design9} alt="Design" className=' h-full w-[10%]' />
+        <img src={Design10} alt="Design" className=' h-full w-[10%]' />
       </div>
       <div className="bg-design h-full w-[30%] absolute z-10 right-[40%]"></div>
     </div>
   )
 }
 
-export default DesignKaBoSu
+export default Design
