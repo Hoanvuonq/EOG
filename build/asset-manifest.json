@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a9a29bc0.css",
-    "main.js": "/static/js/main.f5ea0c2a.js",
+    "main.js": "/static/js/main.cd77c60f.js",
     "static/media/bg-eog-version-13.png": "/static/media/bg-eog-version-13.d9d86b369fc28a19cb71.png",
     "static/media/avatar-version-13.png": "/static/media/avatar-version-13.1e72491102bf20f23010.png",
     "static/media/Enfonix-DEMO.otf": "/static/media/Enfonix-DEMO.11623b455cceae92d9e4.otf",
@@ -12,10 +12,10 @@
     "static/media/Black Bison.ttf": "/static/media/Black Bison.41e8174c96734a2bc9b7.ttf",
     "index.html": "/index.html",
     "main.a9a29bc0.css.map": "/static/css/main.a9a29bc0.css.map",
-    "main.f5ea0c2a.js.map": "/static/js/main.f5ea0c2a.js.map"
+    "main.cd77c60f.js.map": "/static/js/main.cd77c60f.js.map"
   },
   "entrypoints": [
     "static/css/main.a9a29bc0.css",
-    "static/js/main.f5ea0c2a.js"
+    "static/js/main.cd77c60f.js"
   ]
 }
