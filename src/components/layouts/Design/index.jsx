@@ -13,7 +13,7 @@ import Design10 from '../../../assets/design-10.png'
 const Design = () => {
   return (
     <div className='md:block hidden'>
-      <div className='bg-[#002AB0] h-[998px rounded-3xl absolute w-[60%] h-[80%] top-16 left-28 p-7 flex gap-2 z-20 '>
+      <div className='bg-[#D30C00] h-[998px rounded-3xl absolute w-[60%] h-[80%] top-16 left-28 p-7 flex gap-2 z-20 '>
         <img src={Design1} alt="Design" className=' h-full w-[10%]' />
         <img src={Design2} alt="Design" className=' h-full w-[10%]' />
         <img src={Design3} alt="Design" className=' h-full w-[10%]' />

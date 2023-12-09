@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.c60bd5c2.css",
-    "main.js": "/static/js/main.05df8bca.js",
+    "main.css": "/static/css/main.a9a29bc0.css",
+    "main.js": "/static/js/main.f5ea0c2a.js",
+    "static/media/bg-eog-version-13.png": "/static/media/bg-eog-version-13.d9d86b369fc28a19cb71.png",
+    "static/media/avatar-version-13.png": "/static/media/avatar-version-13.1e72491102bf20f23010.png",
     "static/media/Enfonix-DEMO.otf": "/static/media/Enfonix-DEMO.11623b455cceae92d9e4.otf",
-    "static/media/bg-eog-version-12.png": "/static/media/bg-eog-version-12.5ba2f0baaccccb89e001.png",
-    "static/media/avatar-version-12.png": "/static/media/avatar-version-12.080278e36dff2b2e125e.png",
     "static/media/JosefinSans-VariableFont_wght.ttf": "/static/media/JosefinSans-VariableFont_wght.613585db06f849ca7717.ttf",
     "static/media/BRLNSR.TTF": "/static/media/BRLNSR.dc095e60ae5e90312573.TTF",
     "static/media/SVN-Avo.ttf": "/static/media/SVN-Avo.5d0827f05fa8942e1968.ttf",
     "static/media/eog.png": "/static/media/eog.9cf12f5d6bbbc891a502.png",
     "static/media/Black Bison.ttf": "/static/media/Black Bison.41e8174c96734a2bc9b7.ttf",
     "index.html": "/index.html",
-    "main.c60bd5c2.css.map": "/static/css/main.c60bd5c2.css.map",
-    "main.05df8bca.js.map": "/static/js/main.05df8bca.js.map"
+    "main.a9a29bc0.css.map": "/static/css/main.a9a29bc0.css.map",
+    "main.f5ea0c2a.js.map": "/static/js/main.f5ea0c2a.js.map"
   },
   "entrypoints": [
-    "static/css/main.c60bd5c2.css",
-    "static/js/main.05df8bca.js"
+    "static/css/main.a9a29bc0.css",
+    "static/js/main.f5ea0c2a.js"
   ]
 }

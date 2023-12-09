@@ -44,19 +44,19 @@ const Tokenmics = () => {
                     <div className="flex md:gap-2 gap-4 md:flex-row flex-col">
                         <div className="flex flex-col">
                             <Link to={'/'}>
-                                <button className="text-token flex gap-2 text-white py-5 pl-5 md:w-[320px] w-[380px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 rounded-xl blur-20 border-white">
+                                <button className="text-token flex gap-2 text-white py-5 pl-5 md:w-[360px] w-[380px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 rounded-xl sm:blur-20 blur-10 border-white">
                                     <p className='!font-normal'>Total Supply</p>
                                     <p> - </p>
-                                    <p> 1,000,000 $CAI </p>
+                                    <p> 100,000,000,000 #DAWAE </p>
                                 </button>
                             </Link>
                         </div>
                         <div className="flex flex-col">
                             <Link to={'/'}>
-                                <button className="text-token flex gap-2 text-white py-5 pl-5 md:w-[160px] w-[380px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 rounded-xl blur-20 border-white">
+                                <button className="text-token flex gap-2 text-white py-5 pl-5 md:w-[160px] w-[380px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 rounded-xl sm:blur-20 blur-10 border-white">
                                     <p className='!font-normal'>TAX</p>
                                     <p> - </p>
-                                    <p> 0% / 6% </p>
+                                    <p> 0% / 0% </p>
                                 </button>
                             </Link>
                         </div>
@@ -64,7 +64,7 @@ const Tokenmics = () => {
                     <div className="flex md:gap-2 gap-4 md:flex-row flex-col">
                         <div className="flex flex-col">
                             <Link to={'/'}>
-                                <button className="text-token flex gap-2 text-white py-5 pl-5 md:w-[240px] w-[380px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 rounded-xl blur-20 border-white">
+                                <button className="text-token flex gap-2 text-white py-5 pl-5 md:w-[240px] w-[380px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 rounded-xl sm:blur-20 blur-10 border-white">
                                     <p className='!font-normal'>LP LOCKED</p>
                                     <p> - </p>
                                     <p> 3 MONTHS </p>
@@ -73,7 +73,7 @@ const Tokenmics = () => {
                         </div>
                         <div className="flex flex-col">
                             <Link to={'/'}>
-                                <button className="text-token text-white py-5 pl-5 md:w-[240px] w-[380px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 rounded-xl blur-20 border-white">
+                                <button className="text-token text-white py-5 pl-5 md:w-[240px] w-[380px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 rounded-xl sm:blur-20 blur-10 border-white">
                                     Ownership Renounced
                                 </button>
                             </Link>
@@ -81,7 +81,7 @@ const Tokenmics = () => {
                     </div>
                 </div>
                 <div className="gap-2 cursor-pointer all-center md:mt-6 mt-4 ">
-                    <p className="text-address items-center flex gap-2 md:!text-black !text-white pb-1 ">
+                    <p className="text-address items-center flex gap-2 !text-white pb-1 ">
                         Contract Address -  <p ref={buttonRef} data-clipboard-text={contractAddress}>
                             {splitAddress(contractAddress, { numSplit: 10 })}
                         </p>
