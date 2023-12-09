@@ -11,10 +11,10 @@ const Footer = () => {
                 <p className="text-gitbook bg-white rounded-xl py-3 px-8">gitbook</p>
             </Link> */}
             <div className="flex gap-2">
-                <Link to={"#"} target="_blank">
+                <Link to={"https://t.me/DawaeAVAX"} target="_blank">
                     <img src={IconTele} alt="Icon Telegram" width={46} height={46} className="scale-icon" />
                 </Link>
-                <Link to={"#"} target="_blank">
+                <Link to={"https://twitter.com/DawaeAvax"} target="_blank">
                     <img src={IconTwitter} alt="Icon Twitter" width={46} height={46} className="scale-icon" />
                 </Link>
             </div>
