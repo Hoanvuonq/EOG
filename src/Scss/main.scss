@@ -3,24 +3,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
 // @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,500;1,700&display=swap');
 @font-face {
-    font-family: 'Enfonix'; 
-    src: url('../assets/font/enfonix/Enfonix-DEMO.otf') format('truetype'); 
+    font-family: 'Enfonix';
+    src: url('../assets/font/enfonix/Enfonix-DEMO.otf') format('truetype');
 }
 @font-face {
-    font-family: 'Black bison'; 
-    src: url('../assets/font/black-bison/Black\ Bison.ttf') format('truetype'); 
+    font-family: 'Black bison';
+    src: url('../assets/font/black-bison/Black\ Bison.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'SVN-Avo'; 
-    src: url('../assets/font/SVN-Avo.ttf') format('truetype'); 
+    font-family: 'SVN-Avo';
+    src: url('../assets/font/SVN-Avo.ttf') format('truetype');
 }
 @font-face {
-    font-family: 'Berlin Sans FB'; 
-    src: url('../assets/font/berlin-sans-fb-cufonfonts/BRLNSR.TTF') format('truetype'); 
+    font-family: 'Berlin Sans FB';
+    src: url('../assets/font/berlin-sans-fb-cufonfonts/BRLNSR.TTF') format('truetype');
 }
 @font-face {
-    font-family: 'Josefin Sans'; 
-    src: url('../assets/font/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('truetype'); 
+    font-family: 'Josefin Sans';
+    src: url('../assets/font/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('truetype');
 }
 
 body {
@@ -32,14 +32,14 @@ body {
     }
 }
 
-.bg-custom{
-    background-image: url(../assets/bg-eog-version-10.png);
+.bg-custom {
+    background-image: url(../assets/bg-eog-version-11.png);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
-    
+
     @media (max-width: 768px) {
-        height: auto
+        height: auto;
     }
 }
 .bg-avatar {
@@ -80,12 +80,11 @@ body {
 
 .blur-10 {
     backdrop-filter: blur(14px);
-    background: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.3));
+    background: linear-gradient(rgb(225 127 127 / 68%), rgb(223 14 14 / 17%));
 }
 .blur-20 {
     background: rgba(194, 130, 55, 0.2);
 }
-
 
 .text-btn {
     font-size: 18px;
@@ -98,7 +97,6 @@ body {
         font-size: 24px;
         line-height: 36px;
     }
-    
 }
 
 .text-title-box {
@@ -111,14 +109,12 @@ body {
     font-size: 14px;
     line-height: 26px;
     font-weight: 400;
-    font-family: ui-serif;
     text-align: justify;
     font-family: 'SVN-Avo';
 
     @media (max-width: 768px) {
         font-size: 32px;
         line-height: 48px;
-        text-align: start;
     }
 }
 
@@ -145,7 +141,7 @@ body {
     text-transform: uppercase;
 
     @media (max-width: 768px) {
-        font-size: 22px;
+        font-size: 18px;
         line-height: 34px;
     }
 }
@@ -154,7 +150,7 @@ body {
     font-size: 13px;
     line-height: 24px;
     font-weight: 100;
-     font-family: 'SVN-Avo';
+    font-family: 'SVN-Avo';
     text-transform: uppercase;
 
     @media (max-width: 768px) {

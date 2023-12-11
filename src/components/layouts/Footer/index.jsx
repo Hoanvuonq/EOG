@@ -8,11 +8,11 @@ const Footer = () => {
         <div className="flex justify-between w-full py-4 px-[20px] sm:px-[60px] items-center absolute bottom-0">
             <p className="text-footer"></p>
             <div className="flex gap-2">
-                <Link to={"https://t.me/xmas_erc20"} target="_blank">
-                    <img src={IconTele} alt="Icon Telegram" width={46} height={46} className="scale-icon"/>
+                <Link to={"#"} target="_blank">
+                    <img src={IconTele} alt="Icon Telegram" width={46} height={46} className="scale-icon" />
                 </Link>
-                <Link to={"https://twitter.com/xmas_erc20"} target="_blank">
-                    <img src={IconTwitter} alt="Icon Twitter" width={46} height={46} className="scale-icon"/>
+                <Link to={"#"} target="_blank">
+                    <img src={IconTwitter} alt="Icon Twitter" width={46} height={46} className="scale-icon" />
                 </Link>
             </div>
         </div>
