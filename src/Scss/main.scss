@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
 // @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@400;700&display=swap');
 @font-face {
     font-family: 'Enfonix';
     src: url('../assets/font/enfonix/Enfonix-DEMO.otf') format('truetype');
@@ -21,6 +22,10 @@
 @font-face {
     font-family: 'Josefin Sans';
     src: url('../assets/font/Josefin_Sans/JosefinSans-VariableFont_wght.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Benzin Bold';
+    src: url('../assets/font/Font_Benzin/Font_Benzin/Benzin\ Bold.ttf') format('truetype');
 }
 
 body {
@@ -79,8 +84,9 @@ body {
 }
 
 .blur-10 {
-    backdrop-filter: blur(14px);
-    background: linear-gradient(rgb(225 127 127 / 68%), rgb(223 14 14 / 17%));
+    // backdrop-filter: blur(14px);
+    // background: linear-gradient(rgb(225 127 127 / 68%), rgb(223 14 14 / 17%));
+    background: #00ab60;
 }
 .blur-20 {
     background: rgba(194, 130, 55, 0.2);
@@ -102,7 +108,7 @@ body {
 .text-title-box {
     line-height: 90px;
     font-weight: 400;
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Benzin Bold', cursive;
 }
 
 .text-content-box {
@@ -110,7 +116,7 @@ body {
     line-height: 26px;
     font-weight: 400;
     text-align: justify;
-    font-family: 'SVN-Avo';
+    font-family: 'Benzin Bold', cursive;
 
     @media (max-width: 768px) {
         font-size: 32px;
@@ -134,15 +140,16 @@ body {
 }
 
 .text-token {
-    font-size: 16px;
+    font-size: 18px;
     line-height: 24px;
     font-weight: 100;
-    font-family: 'Luckiest Guy';
+    font-family: 'BenchNine', sans-serif;
     text-transform: uppercase;
 
     @media (max-width: 768px) {
-        font-size: 18px;
+        font-size: 16px;
         line-height: 34px;
+        font-family: 'Luckiest Guy';
     }
 }
 
