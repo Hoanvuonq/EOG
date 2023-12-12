@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.75905f54.css",
-    "main.js": "/static/js/main.c59cabf4.js",
+    "main.css": "/static/css/main.398ec60e.css",
+    "main.js": "/static/js/main.018a3324.js",
     "static/media/bg-eog-version-11.png": "/static/media/bg-eog-version-11.d31f9f590ef7368e51b7.png",
     "static/media/avatar-version-12.png": "/static/media/avatar-version-12.3b0055df8497a9bb41d3.png",
     "static/media/avatar-meet.png": "/static/media/avatar-meet.06de728c5d8a6bb35e3b.png",
@@ -25,11 +25,11 @@
     "static/media/eog.png": "/static/media/eog.9cf12f5d6bbbc891a502.png",
     "static/media/Black Bison.ttf": "/static/media/Black Bison.41e8174c96734a2bc9b7.ttf",
     "index.html": "/index.html",
-    "main.75905f54.css.map": "/static/css/main.75905f54.css.map",
-    "main.c59cabf4.js.map": "/static/js/main.c59cabf4.js.map"
+    "main.398ec60e.css.map": "/static/css/main.398ec60e.css.map",
+    "main.018a3324.js.map": "/static/js/main.018a3324.js.map"
   },
   "entrypoints": [
-    "static/css/main.75905f54.css",
-    "static/js/main.c59cabf4.js"
+    "static/css/main.398ec60e.css",
+    "static/js/main.018a3324.js"
   ]
 }
