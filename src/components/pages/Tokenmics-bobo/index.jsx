@@ -20,7 +20,7 @@ const splitAddress = (address, options) => {
     return '';
 };
 
-const Tokenmics = () => {
+const TokenmicsBoBo = () => {
     const contractAddress = '0xe4dC50918e17016D52276eAA1771862C205573Df';
     const buttonRef = useRef(null);
 
@@ -39,42 +39,30 @@ const Tokenmics = () => {
     return (
         <>
             <div className="flex-col md:pt-0 pt-32 md:pl-20 pl-0 md:pb-0 pb-10 relative z-40">
-                <h1 className="text-title-box text-white md:text-start text-center md:text-[80px] text-[52px] absolute z-[70] md:mt-0 -mt-20 w-full md:hidden flex justify-center">Tokenomic</h1>
-                <div className="all-center md:!items-start !items-center md:gap-0 gap-4 md:flex-row flex-col md:-mt-3 mt-10">
-                    <div className="flex md:gap-0 gap-4 md:flex-row flex-col">
+                <h1 className="text-title-box text-black md:text-start text-center md:text-[80px] text-[52px] md:hidden block absolute z-[70] ">Tokenomic</h1>
+                <div className="all-center md:-mt-3 mt-10">
+                    <div className="flex gap-8 bg-[#F8D046] py-6 rounded-[40px] border-2 shadow-box border-black w-[50%] all-center">
                         <div className="flex flex-col">
                             <Link to={'/'}>
-                                <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[280px] w-[400px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl sm:blur-20 blur-10 border-white">
+                                <button className="text-token flex flex-col gap-2 text-black text-center  md:w-[280px] w-[380px]  cursor-pointer all-center md:!justify-start !justify-center md:rounded-none rounded-xl ">
+                                    <p> 1,000,000,000,000,000 $WOJAK</p>
                                     <p className='!font-normal'>Total Supply</p>
-                                    <p> - </p>
-                                    <p> 100,000,000,000 $BOBO</p>
                                 </button>
                             </Link>
                         </div>
                         <div className="flex flex-col">
                             <Link to={'/'}>
-                                <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[120px] w-[400px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl sm:blur-20 blur-10 border-white">
-                                    <p className='!font-normal'>TAX</p>
-                                    <p> - </p>
+                                <button className="text-token flex flex-col gap-2 text-black text-center  md:w-[120px] w-[380px]  cursor-pointer all-center md:!justify-start !justify-center md:rounded-none rounded-xl ">
                                     <p> 0% / 0% </p>
-                                </button>
-                            </Link>
-                        </div>
-                    </div>
-                    <div className="flex md:gap-0 gap-4 md:flex-row flex-col">
-                        <div className="flex flex-col">
-                            <Link to={'/'}>
-                                <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[160px] w-[400px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl sm:blur-20 blur-10 border-white">
-                                    <p className='!font-normal'>LP BURNT</p>
-                                    <p> - </p>
-                                    <p> FOREVER </p>
+                                    <p className='!font-normal'>TAX</p>
                                 </button>
                             </Link>
                         </div>
                         <div className="flex flex-col">
                             <Link to={'/'}>
-                                <button className="text-token text-white py-5 text-center px-4 md:w-[176px] w-[400px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl sm:blur-20 blur-10 border-white">
-                                    Ownership Renounced
+                                <button className="text-token flex flex-col gap-2 text-black text-center  md:w-[160px] w-[380px]  cursor-pointer all-center md:!justify-start !justify-center md:rounded-none rounded-xl ">
+                                    <p className=''>RENOUNCED</p>
+                                    <p className='!font-normal'> Ownership </p>
                                 </button>
                             </Link>
                         </div>
@@ -91,8 +79,8 @@ const Tokenmics = () => {
                     </p>
 
                 </div>
-            </div>
+            </div >
         </>
     );
 };
-export default Tokenmics;
+export default TokenmicsBoBo;

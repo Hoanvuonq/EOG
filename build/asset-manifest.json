@@ -1,35 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.398ec60e.css",
-    "main.js": "/static/js/main.018a3324.js",
-    "static/media/bg-eog-version-11.png": "/static/media/bg-eog-version-11.d31f9f590ef7368e51b7.png",
-    "static/media/avatar-version-12.png": "/static/media/avatar-version-12.3b0055df8497a9bb41d3.png",
-    "static/media/avatar-meet.png": "/static/media/avatar-meet.06de728c5d8a6bb35e3b.png",
-    "static/media/design.png": "/static/media/design.f12a58b719da1a4629f7.png",
+    "main.css": "/static/css/main.214806e0.css",
+    "main.js": "/static/js/main.5c7e0260.js",
     "static/media/Enfonix-DEMO.otf": "/static/media/Enfonix-DEMO.11623b455cceae92d9e4.otf",
+    "static/media/avatar-version-13.png": "/static/media/avatar-version-13.04979e6a6369fe924c02.png",
     "static/media/JosefinSans-VariableFont_wght.ttf": "/static/media/JosefinSans-VariableFont_wght.613585db06f849ca7717.ttf",
     "static/media/Benzin Bold.ttf": "/static/media/Benzin Bold.f4826ddcf24e7e1ed982.ttf",
     "static/media/BRLNSR.TTF": "/static/media/BRLNSR.dc095e60ae5e90312573.TTF",
     "static/media/SVN-Avo.ttf": "/static/media/SVN-Avo.5d0827f05fa8942e1968.ttf",
-    "static/media/design-4.png": "/static/media/design-4.3497f8569fb008bfe136.png",
-    "static/media/design-3.png": "/static/media/design-3.545b4adf5b8cf1c0b025.png",
-    "static/media/design-kabosu-3.png": "/static/media/design-kabosu-3.04e51fe857eb1d15595a.png",
-    "static/media/design-kabosu-4.png": "/static/media/design-kabosu-4.db0f5d14912410c6fd8b.png",
-    "static/media/design-kabosu-7.png": "/static/media/design-kabosu-7.9ebff94f85aee2bd4796.png",
-    "static/media/design-kabosu-6.png": "/static/media/design-kabosu-6.c343918f257476b30003.png",
-    "static/media/design-kabosu-2.png": "/static/media/design-kabosu-2.4c6f93011650321b41a5.png",
-    "static/media/design-kabosu-5.png": "/static/media/design-kabosu-5.cbb792182d28aa193870.png",
-    "static/media/design-kabosu-1.png": "/static/media/design-kabosu-1.0404529f2dd6b0602aba.png",
-    "static/media/design-kabosu-8.png": "/static/media/design-kabosu-8.ef35f2b80854fcffd262.png",
-    "static/media/design-kabosu-9.png": "/static/media/design-kabosu-9.ef35f2b80854fcffd262.png",
+    "static/media/COMIC.TTF": "/static/media/COMIC.cf3d8690bffa563fb10b.TTF",
+    "static/media/bg-eog-version-13.png": "/static/media/bg-eog-version-13.4c852bdedf63709449d2.png",
     "static/media/eog.png": "/static/media/eog.9cf12f5d6bbbc891a502.png",
     "static/media/Black Bison.ttf": "/static/media/Black Bison.41e8174c96734a2bc9b7.ttf",
     "index.html": "/index.html",
-    "main.398ec60e.css.map": "/static/css/main.398ec60e.css.map",
-    "main.018a3324.js.map": "/static/js/main.018a3324.js.map"
+    "main.214806e0.css.map": "/static/css/main.214806e0.css.map",
+    "main.5c7e0260.js.map": "/static/js/main.5c7e0260.js.map"
   },
   "entrypoints": [
-    "static/css/main.398ec60e.css",
-    "static/js/main.018a3324.js"
+    "static/css/main.214806e0.css",
+    "static/js/main.5c7e0260.js"
   ]
 }

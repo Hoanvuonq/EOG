@@ -27,6 +27,10 @@
     font-family: 'Benzin Bold';
     src: url('../assets/font/Font_Benzin/Font_Benzin/Benzin\ Bold.ttf') format('truetype');
 }
+@font-face {
+    font-family: 'Comic Sans MS';
+    src: url('../assets/font/comic-sans-ms/COMIC.TTF') format('truetype');
+}
 
 body {
     max-height: 100vh;
@@ -38,7 +42,7 @@ body {
 }
 
 .bg-custom {
-    background-image: url(../assets/bg-eog-version-11.png);
+    background-image: url(../assets/bg-eog-version-13.png);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -79,14 +83,14 @@ body {
 }
 
 .shadow-box {
-    box-shadow: 8px 8px 0px 0px #00000040;
+    box-shadow: 8px 10px 0px 0px rgba(0, 0, 0, 0.3411764706);
     transition: transform 0.1s;
 }
 
 .blur-10 {
     // backdrop-filter: blur(14px);
     // background: linear-gradient(rgb(225 127 127 / 68%), rgb(223 14 14 / 17%));
-    background: #00ab60;
+    background: #333333;
 }
 .blur-20 {
     background: rgba(194, 130, 55, 0.2);
@@ -97,10 +101,10 @@ body {
     line-height: 24px;
     font-weight: 700;
     color: #432627;
-    font-family: 'Josefin Sans';
+    font-family: 'Luckiest Guy', cursive;
 
     @media (max-width: 768px) {
-        font-size: 24px;
+        font-size: 26px;
         line-height: 36px;
     }
 }
@@ -108,15 +112,15 @@ body {
 .text-title-box {
     line-height: 90px;
     font-weight: 400;
-    font-family: 'Benzin Bold', cursive;
+    font-family: 'Luckiest Guy', cursive;
 }
 
 .text-content-box {
-    font-size: 14px;
+    font-size: 18px;
     line-height: 26px;
     font-weight: 400;
     text-align: justify;
-    font-family: 'Benzin Bold', cursive;
+    font-family: 'Comic Sans MS', cursive;
 
     @media (max-width: 768px) {
         font-size: 32px;
@@ -143,13 +147,13 @@ body {
     font-size: 18px;
     line-height: 24px;
     font-weight: 100;
-    font-family: 'BenchNine', sans-serif;
+    font-family: 'Luckiest Guy', cursive;
     text-transform: uppercase;
 
     @media (max-width: 768px) {
         font-size: 16px;
         line-height: 34px;
-        font-family: 'Luckiest Guy';
+        font-family: 'Luckiest Guy', cursive;
     }
 }
 
