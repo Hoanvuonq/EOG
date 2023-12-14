@@ -45,7 +45,7 @@ const TokenmicsBoBo = () => {
                         <div className="flex flex-col">
                             <Link to={'/'}>
                                 <button className="text-token flex flex-col gap-2 text-black text-center  md:w-[280px] w-[380px]  cursor-pointer all-center md:!justify-start !justify-center md:rounded-none rounded-xl ">
-                                    <p> 1,000,000,000,000,000 $WOJAK</p>
+                                    <p> 1,000,000,000,000,000  $BOBO</p>
                                     <p className='!font-normal'>Total Supply</p>
                                 </button>
                             </Link>

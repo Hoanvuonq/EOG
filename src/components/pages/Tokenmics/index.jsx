@@ -47,7 +47,7 @@ const Tokenmics = () => {
                                 <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[280px] w-[400px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl sm:blur-20 blur-10 border-white">
                                     <p className='!font-normal'>Total Supply</p>
                                     <p> - </p>
-                                    <p> 100,000,000,000 $BOBO</p>
+                                    <p> 1,000,000,000,000,000  $BOBO</p>
                                 </button>
                             </Link>
                         </div>
@@ -62,15 +62,6 @@ const Tokenmics = () => {
                         </div>
                     </div>
                     <div className="flex md:gap-0 gap-4 md:flex-row flex-col">
-                        <div className="flex flex-col">
-                            <Link to={'/'}>
-                                <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[160px] w-[400px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl sm:blur-20 blur-10 border-white">
-                                    <p className='!font-normal'>LP BURNT</p>
-                                    <p> - </p>
-                                    <p> FOREVER </p>
-                                </button>
-                            </Link>
-                        </div>
                         <div className="flex flex-col">
                             <Link to={'/'}>
                                 <button className="text-token text-white py-5 text-center px-4 md:w-[176px] w-[400px] md:h-10 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl sm:blur-20 blur-10 border-white">
