@@ -44,7 +44,7 @@ body {
 }
 
 .bg-custom {
-    background-image: url(../assets/bg-eog-version-14.png);
+    background-image: url(../assets/bg-eog-version-15.png);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -53,6 +53,25 @@ body {
         height: auto;
     }
 }
+
+.bg-gradient {
+    background-image: url(../assets/bg-gradient.png);
+    background-repeat: no-repeat;
+
+    @media (max-width: 768px) {
+        height: auto;
+    }
+}
+
+.bg-kaban-1 {
+    background-image: url(../assets/avax/Kaban.png);
+    background-repeat: no-repeat;
+
+    @media (max-width: 768px) {
+        height: auto;
+    }
+}
+
 .bg-avatar {
     background: linear-gradient(rgba(255, 227, 99, 1), rgba(254, 173, 17, 1));
 }
@@ -100,7 +119,7 @@ body {
     background: linear-gradient(rgba(201, 145, 227, 0.4), rgba(119, 101, 127, 0.128));
 }
 .blur-20 {
-    background: rgba(194, 130, 55, 0.2);
+    background: rgba(100, 15, 15, 0.2);
 }
 
 .text-btn {
@@ -155,7 +174,7 @@ body {
 }
 
 .text-token {
-    font-size: 18px;
+    font-size: 14px;
     line-height: 24px;
     font-weight: 100;
     font-family: 'Luckiest Guy', cursive;

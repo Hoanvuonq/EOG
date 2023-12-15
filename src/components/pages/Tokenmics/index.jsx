@@ -38,38 +38,46 @@ const Tokenmics = () => {
 
     return (
         <>
-            <div className="flex-col md:pt-0 pt-32 md:pl-20 pl-0 md:pb-0 pb-10 relative z-40">
+            <div className="flex-col md:pt-0 pt-32 md:pl-60 pl-0 md:pb-0 pb-10 relative z-40">
                 <h1 className="text-title-box text-white md:text-start text-center md:text-[80px] text-[60px] absolute z-[70] md:mt-0 -mt-20 w-full md:hidden flex justify-center">Tokenomic</h1>
                 <div className="all-center md:!items-start !items-center md:gap-0 gap-4 md:flex-row flex-col md:-mt-3 mt-10">
-                    <div className="flex md:gap-0 gap-4 md:flex-row flex-col">
-                        <div className="flex flex-col">
+                    <div className="flex md:gap-2 gap-4 md:flex-row flex-col">
+                        <div className="flex flex-col shadow-custom">
                             <Link to={'/'}>
-                                <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[280px] w-[360px] md:h-10 h-18 shadow-custom all-center md:!justify-start !justify-center border-4 md:rounded-none rounded-2xl blur-1 border-white">
+                                <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[280px] w-[360px] md:h-10 h-18 shadow-custom all-center justify-center border-2 rounded-2xl blur-20 border-white">
                                     <p className='!font-normal'>Total Supply</p>
                                     <p> - </p>
-                                    <p> 100,000,000,000 $RED</p>
+                                    <p> 100,000,000 $MONKE</p>
                                 </button>
                             </Link>
                         </div>
-                        <div className="flex flex-col">
+                        <div className="flex flex-col shadow-custom">
                             <Link to={'/'}>
-                                <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[120px] w-[360px] md:h-10 h-18 shadow-custom all-center md:!justify-start !justify-center border-4 md:rounded-none rounded-2xl blur-1 border-white">
+                                <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[140px] w-[360px] md:h-10 h-18 shadow-custom all-center justify-center border-2 rounded-2xl blur-20 border-white">
                                     <p className='!font-normal'>TAX</p>
                                     <p> - </p>
                                     <p> 0% / 0% </p>
                                 </button>
                             </Link>
                         </div>
-                    </div>
-                    <div className="flex md:gap-0 gap-4 md:flex-row flex-col">
-                        <div className="flex flex-col">
+                        <div className="flex flex-col shadow-custom">
                             <Link to={'/'}>
-                                <button className="text-token text-white py-5 text-center px-4 md:w-[176px] w-[360px] md:h-10 h-18 shadow-custom all-center md:!justify-start !justify-center border-4 md:rounded-none rounded-2xl blur-1 border-white">
-                                    Ownership Renounced
+                                <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[180px] w-[360px] md:h-10 h-18 shadow-custom all-center justify-center border-2 rounded-2xl blur-20 border-white">
+                                    <p className='!font-normal'>LP BURNT</p>
+                                    <p> - </p>
+                                    <p> FOREVER </p>
+                                </button>
+                            </Link>
+                        </div>
+                        <div className="flex flex-col shadow-custom">
+                            <Link to={'/'}>
+                                <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[200px] w-[360px] md:h-10 h-18 shadow-custom all-center justify-center border-2 rounded-2xl blur-20 border-white">
+                                    <p className='!font-normal'>Ownership Renounced</p>
                                 </button>
                             </Link>
                         </div>
                     </div>
+
                 </div>
                 <div className="gap-2 cursor-pointer all-center md:mt-6 mt-12 w-full all-center">
                     <p className="text-address items-center flex  gap-2 !text-white pb-1 ">

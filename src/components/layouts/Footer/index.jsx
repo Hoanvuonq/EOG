@@ -8,13 +8,11 @@ const Footer = () => {
         <div className="flex justify-between w-full py-4 px-[20px] sm:px-[60px] !pr-4 items-center absolute bottom-0 z-[70]">
             <p className="text-footer"></p>
             <div className="flex gap-2">
-                <Link to={"#"} target="_blank" className="border-2 shadow-custom flex gap-2 blur-1 items-center border-white py-2 px-4 rounded-2xl">
-                    <img src={Telegram} alt="Icon Telegram" width={20} height={20} className="scale-icon" />
-                    <p className="text-footer-box">TELEGRAM</p>
+                <Link to={"#"} target="_blank" className="relative z-40 shadow-custom">
+                    <img src={Telegram} alt="Icon Telegram" width={20.} height={20.} className='md:w-auto md:h-auto w-[100px] h-[44px]' />
                 </Link>
-                <Link to={"#"} target="_blank" className="border-2 shadow-custom flex gap-2 blur-1 items-center border-white py-2 px-4 rounded-2xl">
-                    <img src={Twitter} alt="Icon Twitter" width={20} height={20} className="scale-icon" />
-                    <p className="text-footer-box">TWITTER</p>
+                <Link to={"#"} target="_blank" className="shadow-custom">
+                    <img src={Twitter} alt="Icon Twitter" width={20.} height={20.} className='md:w-auto md:h-auto w-[100px] h-[44px]' />
                 </Link>
             </div>
         </div>

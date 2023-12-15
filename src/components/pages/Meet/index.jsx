@@ -7,8 +7,7 @@ const Meet = () => {
     return (
         <div className="all-center w-full z-20 pb-10">
             <div className="flex-col w-full relative md:-ml-96 ml-0 -mt-18">
-                <h1 className="text-title-box text-white md:text-start text-center md:text-[80px] !font-bold text-[90px] md:mt-0 mt-10">Red</h1>
-                <h1 className="text-title-box text-white md:text-start text-center md:text-[84px] !font-extrabold text-[60px] md:mt-0 mt-0">Smurf Cat</h1>
+                <h1 className="text-title-box text-white md:text-start text-center md:text-[80px] !font-bold text-[90px] md:mt-0 mt-10">$MONKE</h1>
                 <div className="flex w-full gap-10">
                     <p className="text-content-box text-justify text-white md:mt-6 mt-4 md:max-w-full max-w-[90%] m-auto relative ">
                         RED SMURF CAT is a memecoin launched on the ethereum blockchain.
