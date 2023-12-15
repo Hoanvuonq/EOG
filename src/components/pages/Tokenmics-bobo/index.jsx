@@ -44,24 +44,24 @@ const TokenmicsHome = () => {
                         <div className="flex flex-col">
                             <Link to={'/'}>
                                 <button className="text-token flex flex-col gap-2 text-white py-8 text-center px-4 md:w-[200px] w-[400px] md:h-32 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl blur-1 border-white">
-                                    <p className='!font-normal comic_nue'>Total Supply</p>
-                                    <p> 1,000,000,000 </p>
+                                    <p className='!font-normal comic_nue'>TOTAL SUPPLY</p>
+                                    <p> 100,000,000,000 </p>
                                 </button>
                             </Link>
                         </div>
                         <div className="flex flex-col">
                             <Link to={'/'}>
                                 <button className="text-token flex flex-col gap-2 text-white py-8 text-center px-4 md:w-[200px] w-[400px] md:h-32 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl blur-1 border-white">
-                                    <p className='!font-normal comic_nue'>Ticker</p>
-                                    <p> $RED </p>
-                                </button>
-                            </Link>
-                        </div>
-                        <div className="flex flex-col">
-                            <Link to={'/'}>
-                                <button className="text-token flex flex-col gap-2 text-white py-8 text-center px-4 md:w-[200px] w-[400px] md:h-32 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl blur-1 border-white">
-                                    <p className='!font-normal comic_nue'>Tax</p>
+                                    <p className='!font-normal comic_nue'>TAX</p>
                                     <p> 0% / 0% </p>
+                                </button>
+                            </Link>
+                        </div>
+                        <div className="flex flex-col">
+                            <Link to={'/'}>
+                                <button className="text-token flex flex-col gap-2 text-white py-8 text-center px-4 md:w-[200px] w-[400px] md:h-32 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl blur-1 border-white">
+                                    <p className='!font-normal comic_nue'>LP BURNT</p>
+                                    <p> FOREVER </p>
                                 </button>
                             </Link>
                         </div>
@@ -69,8 +69,8 @@ const TokenmicsHome = () => {
                             <div className="flex flex-col">
                                 <Link to={'/'}>
                                     <button className="text-token flex flex-col gap-2 text-white py-8 text-center px-4 md:w-[200px] w-[400px] md:h-32 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl blur-1 border-white">
-                                        <p className='!font-normal comic_nue'>Ownership</p>
-                                        <p>Renounced</p>
+                                        <p className='!font-normal comic_nue'> RENOUNCED</p>
+                                        <p>Ownership</p>
                                     </button>
                                 </Link>
                             </div>

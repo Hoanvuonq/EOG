@@ -47,7 +47,7 @@ const Tokenmics = () => {
                                 <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[280px] w-[360px] md:h-10 h-18 shadow-custom all-center md:!justify-start !justify-center border-4 md:rounded-none rounded-2xl blur-1 border-white">
                                     <p className='!font-normal'>Total Supply</p>
                                     <p> - </p>
-                                    <p> 1,000,000,000  $RED</p>
+                                    <p> 100,000,000,000 $RED</p>
                                 </button>
                             </Link>
                         </div>
