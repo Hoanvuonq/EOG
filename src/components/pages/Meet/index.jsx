@@ -20,11 +20,11 @@ const Meet = () => {
                         <div className="all-center gap-5">
                             <Link to={"#"} target="_blank" className='shadow-custom flex gap-2 items-center border border-white p-3'>
                                 <img src={Telegram} alt="Telegram" />
-                                <p className="text-footer-box">TELEGRAM</p>
+                                <p className="text-link-box">TELEGRAM</p>
                             </Link>
                             <Link to={"#"} target="_blank" className='shadow-custom flex gap-2 items-center border border-white p-3'>
                                 <img src={Twitter} alt="Twitter" />
-                                <p className="text-footer-box">TWITTER</p>
+                                <p className="text-link-box">TWITTER</p>
                             </Link>
 
                         </div>

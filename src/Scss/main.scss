@@ -200,8 +200,17 @@ body {
     font-family: 'Comic Neue', cursive;
 }
 
-.text-footer-box {
+.text-link-box {
     font-size: 12px;
+    line-height: 26px;
+    font-weight: 700;
+    text-align: justify;
+    color: #fff;
+    font-family: 'Barlow', sans-serif;
+}
+
+.text-footer-box {
+    font-size: 10px;
     line-height: 26px;
     font-weight: 700;
     text-align: justify;
