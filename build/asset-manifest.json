@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/static/css/main.214806e0.css",
-    "main.js": "/static/js/main.9a67361e.js",
+    "main.css": "/static/css/main.8d8399f5.css",
+    "main.js": "/static/js/main.95171bc5.js",
+    "static/media/bg-eog-version-14.png": "/static/media/bg-eog-version-14.feab4d3ce50196b8a27f.png",
+    "static/media/avatar-version-14.png": "/static/media/avatar-version-14.25ad3106935b42305bb6.png",
     "static/media/Enfonix-DEMO.otf": "/static/media/Enfonix-DEMO.11623b455cceae92d9e4.otf",
-    "static/media/avatar-version-13.png": "/static/media/avatar-version-13.04979e6a6369fe924c02.png",
+    "static/media/avatar-version-14-MB.png": "/static/media/avatar-version-14-MB.03b724cfd85bf9badc26.png",
     "static/media/JosefinSans-VariableFont_wght.ttf": "/static/media/JosefinSans-VariableFont_wght.613585db06f849ca7717.ttf",
     "static/media/Benzin Bold.ttf": "/static/media/Benzin Bold.f4826ddcf24e7e1ed982.ttf",
     "static/media/BRLNSR.TTF": "/static/media/BRLNSR.dc095e60ae5e90312573.TTF",
     "static/media/SVN-Avo.ttf": "/static/media/SVN-Avo.5d0827f05fa8942e1968.ttf",
     "static/media/COMIC.TTF": "/static/media/COMIC.cf3d8690bffa563fb10b.TTF",
-    "static/media/bg-eog-version-13.png": "/static/media/bg-eog-version-13.4c852bdedf63709449d2.png",
+    "static/media/SMURFT_CAT17_45.png": "/static/media/SMURFT_CAT17_45.eb7380d176e69a82d0fa.png",
     "static/media/eog.png": "/static/media/eog.9cf12f5d6bbbc891a502.png",
     "static/media/Black Bison.ttf": "/static/media/Black Bison.41e8174c96734a2bc9b7.ttf",
     "index.html": "/index.html",
-    "main.214806e0.css.map": "/static/css/main.214806e0.css.map",
-    "main.9a67361e.js.map": "/static/js/main.9a67361e.js.map"
+    "main.8d8399f5.css.map": "/static/css/main.8d8399f5.css.map",
+    "main.95171bc5.js.map": "/static/js/main.95171bc5.js.map"
   },
   "entrypoints": [
-    "static/css/main.214806e0.css",
-    "static/js/main.9a67361e.js"
+    "static/css/main.8d8399f5.css",
+    "static/js/main.95171bc5.js"
   ]
 }

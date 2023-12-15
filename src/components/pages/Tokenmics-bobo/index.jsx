@@ -20,7 +20,7 @@ const splitAddress = (address, options) => {
     return '';
 };
 
-const TokenmicsBoBo = () => {
+const TokenmicsHome = () => {
     const contractAddress = '0xe4dC50918e17016D52276eAA1771862C205573Df';
     const buttonRef = useRef(null);
 
@@ -38,49 +38,56 @@ const TokenmicsBoBo = () => {
 
     return (
         <>
-            <div className="flex-col md:pt-0 pt-32 md:pl-20 pl-0 md:pb-0 pb-10 relative z-40">
-                <h1 className="text-title-box text-black md:text-start text-center md:text-[80px] text-[52px] md:hidden block absolute z-[70] ">Tokenomic</h1>
-                <div className="all-center md:-mt-3 mt-10">
-                    <div className="flex gap-8 bg-[#F8D046] py-6 rounded-[40px] border-2 shadow-box border-black w-[50%] all-center">
+            <div className="flex-col md:pb-0 pb-10 relative z-40 -ml-80">
+                <div className="all-center md:!items-start !items-center md:gap-0 gap-10 md:flex-row flex-col md:-mt-3 mt-10">
+                    <div className="flex gap-10 md:flex-row flex-col">
                         <div className="flex flex-col">
                             <Link to={'/'}>
-                                <button className="text-token flex flex-col gap-2 text-black text-center  md:w-[280px] w-[380px]  cursor-pointer all-center md:!justify-start !justify-center md:rounded-none rounded-xl ">
-                                    <p> 1,000,000,000,000,000  $BOBO</p>
-                                    <p className='!font-normal'>Total Supply</p>
+                                <button className="text-token flex flex-col gap-2 text-white py-8 text-center px-4 md:w-[200px] w-[400px] md:h-32 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl blur-1 border-white">
+                                    <p className='!font-normal comic_nue'>Total Supply</p>
+                                    <p> 1,000,000,000 </p>
                                 </button>
                             </Link>
                         </div>
                         <div className="flex flex-col">
                             <Link to={'/'}>
-                                <button className="text-token flex flex-col gap-2 text-black text-center  md:w-[120px] w-[380px]  cursor-pointer all-center md:!justify-start !justify-center md:rounded-none rounded-xl ">
+                                <button className="text-token flex flex-col gap-2 text-white py-8 text-center px-4 md:w-[200px] w-[400px] md:h-32 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl blur-1 border-white">
+                                    <p className='!font-normal comic_nue'>Ticker</p>
+                                    <p> $RED </p>
+                                </button>
+                            </Link>
+                        </div>
+                        <div className="flex flex-col">
+                            <Link to={'/'}>
+                                <button className="text-token flex flex-col gap-2 text-white py-8 text-center px-4 md:w-[200px] w-[400px] md:h-32 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl blur-1 border-white">
+                                    <p className='!font-normal comic_nue'>Tax</p>
                                     <p> 0% / 0% </p>
-                                    <p className='!font-normal'>TAX</p>
                                 </button>
                             </Link>
                         </div>
-                        <div className="flex flex-col">
-                            <Link to={'/'}>
-                                <button className="text-token flex flex-col gap-2 text-black text-center  md:w-[160px] w-[380px]  cursor-pointer all-center md:!justify-start !justify-center md:rounded-none rounded-xl ">
-                                    <p className=''>RENOUNCED</p>
-                                    <p className='!font-normal'> Ownership </p>
-                                </button>
-                            </Link>
+                        <div className="flex md:gap-0 gap-4 md:flex-row flex-col">
+                            <div className="flex flex-col">
+                                <Link to={'/'}>
+                                    <button className="text-token flex flex-col gap-2 text-white py-8 text-center px-4 md:w-[200px] w-[400px] md:h-32 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl blur-1 border-white">
+                                        <p className='!font-normal comic_nue'>Ownership</p>
+                                        <p>Renounced</p>
+                                    </button>
+                                </Link>
+                            </div>
                         </div>
+
                     </div>
                 </div>
-                <div className="gap-2 cursor-pointer all-center md:mt-3 mt-12">
-                    <p className="text-address items-center flex gap-2 !text-white pb-1 ">
+                <div className="gap-2 cursor-pointer all-center md:mt-6 mt-12 w-full all-center">
+                    <p className="text-address items-center flex  gap-2 !text-white pb-1 ">
                         Contract Address -  <p ref={buttonRef} data-clipboard-text={contractAddress}>
                             {splitAddress(contractAddress, { numSplit: 10 })}
-
                         </p>
                         <img src={IconCoppy} width={20} height={20} alt="Icon Coppy" className="ml-2" />
-
                     </p>
-
                 </div>
-            </div >
+            </div>
         </>
     );
 };
-export default TokenmicsBoBo;
+export default TokenmicsHome;

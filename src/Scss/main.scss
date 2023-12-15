@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital@1&family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,300;0,400;1,200;1,300;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,300&display=swap');
 @font-face {
     font-family: 'Enfonix';
     src: url('../assets/font/enfonix/Enfonix-DEMO.otf') format('truetype');
@@ -42,7 +44,7 @@ body {
 }
 
 .bg-custom {
-    background-image: url(../assets/bg-eog-version-13.png);
+    background-image: url(../assets/bg-eog-version-14.png);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -63,8 +65,14 @@ body {
 .text-title {
     font-size: 80px;
     line-height: 80px;
-    font-weight: 700;
-    font-family: 'Luckiest Guy', cursive;
+    font-weight: 600;
+    font-family: 'Syne', sans-serif;
+
+    @media (max-width: 768px) {
+        font-size: 90px;
+        line-height: 90px;
+        font-family: 'Luckiest Guy', cursive;
+    }
 }
 
 .text-content {
@@ -87,10 +95,9 @@ body {
     transition: transform 0.1s;
 }
 
-.blur-10 {
-    // backdrop-filter: blur(14px);
-    // background: linear-gradient(rgb(225 127 127 / 68%), rgb(223 14 14 / 17%));
-    background: #333333;
+.blur-1 {
+    backdrop-filter: blur(14px);
+    background: linear-gradient(rgba(201, 145, 227, 0.4), rgba(119, 101, 127, 0.128));
 }
 .blur-20 {
     background: rgba(194, 130, 55, 0.2);
@@ -112,15 +119,19 @@ body {
 .text-title-box {
     line-height: 90px;
     font-weight: 400;
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Syne', sans-serif;
+
+    @media (max-width: 768px) {
+        font-family: 'Luckiest Guy', cursive;
+    }
 }
 
 .text-content-box {
-    font-size: 18px;
+    font-size: 12px;
     line-height: 26px;
     font-weight: 400;
     text-align: justify;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Barlow', sans-serif;
 
     @media (max-width: 768px) {
         font-size: 32px;
@@ -148,7 +159,6 @@ body {
     line-height: 24px;
     font-weight: 100;
     font-family: 'Luckiest Guy', cursive;
-    text-transform: uppercase;
 
     @media (max-width: 768px) {
         font-size: 16px;
@@ -165,7 +175,7 @@ body {
     text-transform: uppercase;
 
     @media (max-width: 768px) {
-        font-size: 14px;
+        font-size: 13px;
         line-height: 36px;
     }
 }
@@ -184,4 +194,8 @@ body {
         -webkit-transform: scale(1.2);
         transform: scale(1.2);
     }
+}
+
+.comic_nue {
+    font-family: 'Comic Neue', cursive;
 }
