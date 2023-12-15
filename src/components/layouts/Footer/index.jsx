@@ -9,10 +9,10 @@ const Footer = () => {
             <p className="text-footer"></p>
             <div className="flex gap-2">
                 <Link to={"#"} target="_blank" className="relative z-40 shadow-custom">
-                    <img src={Telegram} alt="Icon Telegram" width={20.} height={20.} className='md:w-auto md:h-auto w-[100px] h-[44px]' />
+                    <img src={Telegram} alt="Icon Telegram" width={20} height={20} className='md:w-auto md:h-auto w-[100px] h-[44px]' />
                 </Link>
                 <Link to={"#"} target="_blank" className="shadow-custom">
-                    <img src={Twitter} alt="Icon Twitter" width={20.} height={20.} className='md:w-auto md:h-auto w-[100px] h-[44px]' />
+                    <img src={Twitter} alt="Icon Twitter" width={20} height={20} className='md:w-auto md:h-auto w-[100px] h-[44px]' />
                 </Link>
             </div>
         </div>

@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Avatar from "../../../assets/avatar-version-15.png"
 import AvatarMB from "../../../assets/avatar-version-15-MB.png"
 import TokenmicsHome from "../Tokenmics-bobo";
@@ -32,9 +31,9 @@ const Home = () => {
                         </div>
                         <div className="md:hidden block">
                             <div className="md:w-2/4 w-full py-10 md:!flex md:flex-row flex-col block all-center md:-mt-8 mt-0 relative z-10">
-                                {/* <Meet /> */}
+                                <Meet />
                                 <Tokenmics />
-                            </div>4
+                            </div>
                         </div>
                     </div>
                 </div>

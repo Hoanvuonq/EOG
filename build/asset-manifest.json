@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.c78762d5.css",
-    "main.js": "/static/js/main.52c95de2.js",
+    "main.css": "/static/css/main.e5ff5841.css",
+    "main.js": "/static/js/main.06f46558.js",
     "static/media/bg-gradient.png": "/static/media/bg-gradient.33fcf1f6ce570ca8d7d0.png",
     "static/media/bg-eog-version-15.png": "/static/media/bg-eog-version-15.ebce2591f4852995f71b.png",
     "static/media/Hot.png": "/static/media/Hot.51b6e4ba5908d3ca85a5.png",
     "static/media/monke.png": "/static/media/monke.867fcfccd516b3c35e3a.png",
     "static/media/avatar-version-15.png": "/static/media/avatar-version-15.d7e7faf15c71fdb4fa65.png",
+    "static/media/Kaban2.png": "/static/media/Kaban2.dd3fc678a3876b604477.png",
     "static/media/Enfonix-DEMO.otf": "/static/media/Enfonix-DEMO.11623b455cceae92d9e4.otf",
     "static/media/Kaban.png": "/static/media/Kaban.32fef277b57abb0f0beb.png",
     "static/media/avatar-version-15-MB.png": "/static/media/avatar-version-15-MB.627c1d2fc95efc2fe147.png",
@@ -22,11 +23,11 @@
     "static/media/icon-telegram.png": "/static/media/icon-telegram.5413f7bb88d5a2228574.png",
     "static/media/Black Bison.ttf": "/static/media/Black Bison.41e8174c96734a2bc9b7.ttf",
     "index.html": "/index.html",
-    "main.c78762d5.css.map": "/static/css/main.c78762d5.css.map",
-    "main.52c95de2.js.map": "/static/js/main.52c95de2.js.map"
+    "main.e5ff5841.css.map": "/static/css/main.e5ff5841.css.map",
+    "main.06f46558.js.map": "/static/js/main.06f46558.js.map"
   },
   "entrypoints": [
-    "static/css/main.c78762d5.css",
-    "static/js/main.52c95de2.js"
+    "static/css/main.e5ff5841.css",
+    "static/js/main.06f46558.js"
   ]
 }

@@ -2,13 +2,15 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import Twitter from "../../../assets/icon-twitter.png"
 import Telegram from "../../../assets/icon-telegram.png"
+import Kaban1 from "../../../assets/avax/Kaban.png"
+import Kaban2 from "../../../assets/avax/Kaban2.png"
 
 const Meet = () => {
     return (
-        <div className="all-center w-full z-20 pb-10">
-            <div className="flex-col w-full relative md:-ml-96 ml-0 -mt-18">
+        <div className="all-center w-full z-20">
+            <div className="flex-col w-full relative md:-ml-96 ml-0 -mt-18 md:flex hidden">
                 <h1 className="text-title-box text-white md:text-start text-center md:text-[80px] !font-bold text-[90px] md:mt-0 mt-10">$MONKE</h1>
-                <div className="flex w-full gap-10">
+                <div className=" w-full gap-10">
                     <p className="text-content-box text-justify text-white md:mt-6 mt-4 md:max-w-full max-w-[90%] m-auto relative ">
                         RED SMURF CAT is a memecoin launched on the ethereum blockchain.
                         he is so cute! this little guy is just going on his jolly way!
@@ -29,6 +31,10 @@ const Meet = () => {
                         </div>
                     </div>
                 </div>
+            </div>
+            <div className="flex flex-col">
+                <img src={Kaban1} alt="Kaban icon" />
+                <img src={Kaban2} alt="Kaban icon" />
             </div>
         </div>
     );
