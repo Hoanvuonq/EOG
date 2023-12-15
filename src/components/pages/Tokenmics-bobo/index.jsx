@@ -21,7 +21,7 @@ const splitAddress = (address, options) => {
 };
 
 const TokenmicsHome = () => {
-    const contractAddress = '0xe4dC50918e17016D52276eAA1771862C205573Df';
+    const contractAddress = '';
     const buttonRef = useRef(null);
 
     useEffect(() => {
@@ -38,37 +38,40 @@ const TokenmicsHome = () => {
 
     return (
         <>
-            <div className="flex-col md:pb-0 pb-10 relative z-40 -ml-80">
-                <div className="all-center md:!items-start !items-center md:gap-0 gap-10 md:flex-row flex-col md:-mt-3 mt-10">
+            <div className="flex-col md:pb-0 pb-10 relative z-40 -ml-[380px]">
+                <div className="all-center md:!items-start !items-center md:gap-0 gap-10 md:flex-row flex-col md:-mt-2 mt-10">
                     <div className="flex gap-10 md:flex-row flex-col">
-                        <div className="flex flex-col">
-                            <Link to={'/'}>
-                                <button className="text-token flex flex-col gap-2 text-white py-8 text-center px-4 md:w-[200px] w-[400px] md:h-32 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl blur-1 border-white">
-                                    <p className='!font-normal comic_nue'>Total Supply</p>
-                                    <p> 1,000,000,000 </p>
-                                </button>
-                            </Link>
-                        </div>
-                        <div className="flex flex-col">
-                            <Link to={'/'}>
-                                <button className="text-token flex flex-col gap-2 text-white py-8 text-center px-4 md:w-[200px] w-[400px] md:h-32 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl blur-1 border-white">
-                                    <p className='!font-normal comic_nue'>Ticker</p>
-                                    <p> $RED </p>
-                                </button>
-                            </Link>
-                        </div>
-                        <div className="flex flex-col">
-                            <Link to={'/'}>
-                                <button className="text-token flex flex-col gap-2 text-white py-8 text-center px-4 md:w-[200px] w-[400px] md:h-32 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl blur-1 border-white">
-                                    <p className='!font-normal comic_nue'>Tax</p>
-                                    <p> 0% / 0% </p>
-                                </button>
-                            </Link>
-                        </div>
-                        <div className="flex md:gap-0 gap-4 md:flex-row flex-col">
+                        <div className="flex flex-col gap-4">
                             <div className="flex flex-col">
                                 <Link to={'/'}>
-                                    <button className="text-token flex flex-col gap-2 text-white py-8 text-center px-4 md:w-[200px] w-[400px] md:h-32 h-20 shadow-custom all-center md:!justify-start !justify-center border-2 md:rounded-none rounded-3xl blur-1 border-white">
+                                    <button className="text-token bg-box-1 flex flex-col gap-2 text-white py-7 text-center px-6 md:w-[240px] w-[400px]  shadow-custom all-center md:!justify-start !justify-center rounded-2xl ">
+                                        <p className='!font-normal comic_nue'>Total Supply</p>
+                                        <p> 1,000,000,000 </p>
+                                    </button>
+                                </Link>
+                            </div>
+                            <div className="flex flex-col">
+                                <Link to={'/'}>
+                                    <button className="text-token bg-box-3 flex flex-col gap-2 text-white py-7 text-center px-6 md:w-[240px] w-[400px]  shadow-custom all-center md:!justify-start !justify-center rounded-2xl ">
+                                        <p className='!font-normal comic_nue'>Ticker</p>
+                                        <p> $FINE </p>
+                                    </button>
+                                </Link>
+                            </div>
+                        </div>
+                        <div className="flex flex-col gap-4">
+                            <div className="flex flex-col">
+                                <Link to={'/'}>
+                                    <button className="text-token bg-box-2 flex flex-col gap-2 text-white py-7 text-center px-6 md:w-[240px] w-[400px]  shadow-custom all-center md:!justify-start !justify-center rounded-2xl ">
+                                        <p className='!font-normal comic_nue'>Tax</p>
+                                        <p> 0% / 0% </p>
+                                    </button>
+                                </Link>
+                            </div>
+
+                            <div className="flex flex-col">
+                                <Link to={'/'}>
+                                    <button className="text-token bg-box-4 flex flex-col gap-2 text-white py-7 text-center px-6 md:w-[240px] w-[400px]  shadow-custom all-center md:!justify-start !justify-center rounded-2xl ">
                                         <p className='!font-normal comic_nue'>Ownership</p>
                                         <p>Renounced</p>
                                     </button>

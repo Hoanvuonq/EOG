@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,300;0,400;1,200;1,300;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @font-face {
     font-family: 'Enfonix';
     src: url('../assets/font/enfonix/Enfonix-DEMO.otf') format('truetype');
@@ -44,8 +45,59 @@ body {
 }
 
 .bg-custom {
-    background-image: url(../assets/bg-eog-version-14.png);
+    background-image: url(../assets/bg-eog-version-15.png);
     height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media (max-width: 768px) {
+        height: auto;
+    }
+}
+
+.bg-gradient {
+    background-image: url(../assets/bg-eog-version-15-gradient.png);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media (max-width: 768px) {
+        height: auto;
+    }
+}
+
+.bg-box-1 {
+    background-image: url(../assets/avax/bg-box-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media (max-width: 768px) {
+        height: auto;
+    }
+}
+
+.bg-box-2 {
+    background-image: url(../assets/avax/bg-box-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media (max-width: 768px) {
+        height: auto;
+    }
+}
+
+.bg-box-3 {
+    background-image: url(../assets/avax/bg-box-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    @media (max-width: 768px) {
+        height: auto;
+    }
+}
+
+.bg-box-4 {
+    background-image: url(../assets/avax/bg-box-4.png);
     background-size: cover;
     background-repeat: no-repeat;
 
@@ -119,19 +171,19 @@ body {
 .text-title-box {
     line-height: 90px;
     font-weight: 400;
-    font-family: 'Syne', sans-serif;
+    font-family: 'Anton', sans-serif;
 
     @media (max-width: 768px) {
-        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Anton', sans-serif;
     }
 }
 
 .text-content-box {
-    font-size: 12px;
+    font-size: 16px;
     line-height: 26px;
     font-weight: 400;
     text-align: justify;
-    font-family: 'Barlow', sans-serif;
+    font-family: 'Comic Sans MS', cursive;
 
     @media (max-width: 768px) {
         font-size: 32px;
@@ -198,4 +250,8 @@ body {
 
 .comic_nue {
     font-family: 'Comic Neue', cursive;
+}
+
+.comic_sans {
+    font-family: 'Comic Sans MS', cursive;
 }

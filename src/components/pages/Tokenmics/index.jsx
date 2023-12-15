@@ -21,7 +21,7 @@ const splitAddress = (address, options) => {
 };
 
 const Tokenmics = () => {
-    const contractAddress = '0xe4dC50918e17016D52276eAA1771862C205573Df';
+    const contractAddress = '';
     const buttonRef = useRef(null);
 
     useEffect(() => {
@@ -47,7 +47,7 @@ const Tokenmics = () => {
                                 <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[280px] w-[360px] md:h-10 h-18 shadow-custom all-center md:!justify-start !justify-center border-4 md:rounded-none rounded-2xl blur-1 border-white">
                                     <p className='!font-normal'>Total Supply</p>
                                     <p> - </p>
-                                    <p> 1,000,000,000  $RED</p>
+                                    <p> 1,000,000,000  $FINE</p>
                                 </button>
                             </Link>
                         </div>
@@ -72,7 +72,7 @@ const Tokenmics = () => {
                     </div>
                 </div>
                 <div className="gap-2 cursor-pointer all-center md:mt-6 mt-12 w-full all-center">
-                    <p className="text-address items-center flex  gap-2 !text-white pb-1 ">
+                    <p className="text-address items-center flex  gap-2 !text-white">
                         Contract Address -  <p ref={buttonRef} data-clipboard-text={contractAddress}>
                             {splitAddress(contractAddress, { numSplit: 10 })}
                         </p>
