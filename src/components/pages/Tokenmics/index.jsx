@@ -21,7 +21,7 @@ const splitAddress = (address, options) => {
 };
 
 const Tokenmics = () => {
-    const contractAddress = '';
+    const contractAddress = '0x80777023C683c4a978383F1ed2328b6bA1b4Cb9d';
     const buttonRef = useRef(null);
 
     useEffect(() => {
