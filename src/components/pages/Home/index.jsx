@@ -7,7 +7,6 @@ import Meet from "../Meet";
 import Footer from "../../layouts/Footer";
 import Avax from "../../layouts/Avax";
 
-
 const Home = () => {
     return (
         <div className="bg-[#291919] w-full h-full relative z-10">
