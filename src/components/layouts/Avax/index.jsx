@@ -1,20 +1,22 @@
 import React from 'react'
 import Design1 from '../../../assets/avax/design-1.png'
-import Design2 from '../../../assets/avax/avax_1.png'
-import Design3 from '../../../assets/avax/avax_2.png'
-import Design4 from '../../../assets/avax/avax_4.png'
-import KabanHot from '../../../assets/avax/Hot.png'
+import Design2 from '../../../assets/avax/design-2.png'
+import Design7 from '../../../assets/avax/design-7.png'
+import BackgroundMP4 from '../../../assets/background.mp4'
 
 
 const Avax = () => {
     return (
         <div className=''>
-            <div className="absolute w-full z-10">
-                <img src={Design1} alt="Design" width={300} className='absolute top-0 right-0 md:w-auto w-[200px]  z-10' />
-                <img src={Design2} alt="Design" width={500} className='absolute top-0 left-0 md:w-auto w-[380px] z-10' />
-                <img src={Design3} alt="Design" width={300} className='absolute top-0 left-0 md:w-auto w-[200px] z-10' />
-                <img src={Design4} alt="Design" width={1000} className='absolute top-10 left-[20%] md:block hidden z-10' />
-                <img src={KabanHot} alt="Kaban1" width={800} className='absolute top-[400px] right-0 md:block hidden z-10' />
+            <div className="absolute z-10 w-full">
+                <video autoPlay loop muted playsInline className="bg-video">
+                    <source src={BackgroundMP4} type="video/mp4" />
+                </video>
+            </div>
+            <div className="absolute w-full z-20">
+                <img src={Design1} alt="Design" width={200} className='absolute top-0 left-0 z-10 md:w-[200px] w-[100px]' />
+                <img src={Design2} alt="Design" width={240} className='absolute top-0 right-0 z-10 md:w-[220px] w-[100px]' />
+                <img src={Design7} alt="Design" width={240} className='absolute top-[360px] left-[32%] z-10 md:block hidden' />
             </div>
         </div>
     )

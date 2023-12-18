@@ -1,18 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Twitter from "../../../assets/icon-twitter.png"
-import Telegram from "../../../assets/icon-telegram.png"
+import IconTele from "../../../assets/icon-telegram.png"
+import IconTwitter from "../../../assets/icon-twitter.png"
 
 const Footer = () => {
     return (
-        <div className="flex justify-between w-full py-4 px-[20px] sm:px-[60px] !pr-4 items-center absolute bottom-0 z-[70]">
+        <div className="flex justify-between w-full md:py-0 py-3 px-[20px] sm:px-[60px] items-center absolute bottom-0 z-[70]">
             <p className="text-footer"></p>
             <div className="flex gap-2">
-                <Link to={"https://t.me/MonkeAvax"} target="_blank" className="relative z-40 shadow-custom">
-                    <img src={Telegram} alt="Icon Telegram" width={20} height={20} className='md:w-auto md:h-auto w-[100px] h-[44px]' />
+                <Link to={"https://t.me/ChristmasColaAvax"} target="_blank">
+                    <img src={IconTele} alt="Icon Telegram" width={32} height={32} className="scale-icon" />
                 </Link>
-                <Link to={"https://twitter.com/MonkeAvax"} target="_blank" className="shadow-custom">
-                    <img src={Twitter} alt="Icon Twitter" width={20} height={20} className='md:w-auto md:h-auto w-[100px] h-[44px]' />
+                <Link to={"https://twitter.com/ChristmasCola_"} target="_blank">
+                    <img src={IconTwitter} alt="Icon Twitter" width={32} height={32} className="scale-icon" />
                 </Link>
             </div>
         </div>

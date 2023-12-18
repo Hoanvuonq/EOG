@@ -2,8 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 import Twitter from "../../../assets/icon-twitter.png"
 import Telegram from "../../../assets/icon-telegram.png"
-import Kaban1 from "../../../assets/avax/Kaban.png"
-import Kaban2 from "../../../assets/avax/Kaban2.png"
+
 
 const Meet = () => {
     return (
@@ -31,10 +30,6 @@ const Meet = () => {
                         </div>
                     </div>
                 </div>
-            </div>
-            <div className="flex flex-col">
-                <img src={Kaban1} alt="Kaban icon" />
-                <img src={Kaban2} alt="Kaban icon" />
             </div>
         </div>
     );

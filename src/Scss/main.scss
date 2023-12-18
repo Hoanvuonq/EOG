@@ -5,6 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=BenchNine:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,300;0,400;1,200;1,300;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,700&display=swap');
 @font-face {
     font-family: 'Enfonix';
     src: url('../assets/font/enfonix/Enfonix-DEMO.otf') format('truetype');
@@ -34,6 +35,11 @@
     src: url('../assets/font/comic-sans-ms/COMIC.TTF') format('truetype');
 }
 
+@font-face {
+    font-family: 'Grinched';
+    src: url('../assets/font/grinched/GrinchedRegular.otf') format('truetype');
+}
+
 body {
     max-height: 100vh;
     overflow: hidden;
@@ -44,7 +50,7 @@ body {
 }
 
 .bg-custom {
-    background-image: url(../assets/bg-eog-version-15.png);
+    background-image: url(../assets/background.mp4);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -54,6 +60,25 @@ body {
     }
 }
 
+.bg-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+
+    @media (max-width: 768px) {
+        height: 100vh;
+    }
+}
+
+.bg-mery {
+    background: linear-gradient(rgba(135, 17, 5, 1), rgba(98, 9, 2, 1));
+}
+
 .bg-gradient {
     background-image: url(../assets/bg-gradient.png);
     background-repeat: no-repeat;
@@ -61,15 +86,6 @@ body {
     @media (max-width: 768px) {
         height: auto;
         background: rgb(106 4 5 / 1%);
-    }
-}
-
-.bg-kaban-1 {
-    background-image: url(../assets/avax/Kaban.png);
-    background-repeat: no-repeat;
-
-    @media (max-width: 768px) {
-        height: auto;
     }
 }
 
@@ -86,12 +102,12 @@ body {
     font-size: 80px;
     line-height: 80px;
     font-weight: 600;
-    font-family: 'Syne', sans-serif;
+    font-family: 'Grinched', sans-serif;
 
     @media (max-width: 768px) {
         font-size: 90px;
         line-height: 90px;
-        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Grinched', sans-serif;
     }
 }
 
@@ -117,7 +133,7 @@ body {
 
 .blur-1 {
     backdrop-filter: blur(14px);
-    background: linear-gradient(rgba(201, 145, 227, 0.4), rgba(119, 101, 127, 0.128));
+    background: rgba(255, 255, 255, 0.2);
 }
 .blur-20 {
     background: rgba(100, 15, 15, 0.2);
@@ -139,10 +155,10 @@ body {
 .text-title-box {
     line-height: 90px;
     font-weight: 400;
-    font-family: 'Syne', sans-serif;
+    font-family: 'Grinched', sans-serif;
 
     @media (max-width: 768px) {
-        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Grinched', cursive;
     }
 }
 
@@ -178,12 +194,12 @@ body {
     font-size: 14px;
     line-height: 24px;
     font-weight: 100;
-    font-family: 'Luckiest Guy', cursive;
+    font-family: 'Source Code Pro', monospace;
 
     @media (max-width: 768px) {
         font-size: 16px;
         line-height: 34px;
-        font-family: 'Luckiest Guy', cursive;
+        font-family: 'Source Code Pro', monospace;
     }
 }
 
