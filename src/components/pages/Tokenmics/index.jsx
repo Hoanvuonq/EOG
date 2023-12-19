@@ -2,6 +2,10 @@ import React, { useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import IconCoppy from '../../../assets/copy.png'
 import ClipboardJS from 'clipboard';
+import Item1 from '../../../assets/avax/item-box-1.png'
+import Item2 from '../../../assets/avax/item-box-2.png'
+import Item3 from '../../../assets/avax/item-box-3.png'
+import Item4 from '../../../assets/avax/item-box-4.png'
 
 const splitAddress = (address, options) => {
     const isVersion2 = options?.isVersion2 || false;
@@ -21,7 +25,7 @@ const splitAddress = (address, options) => {
 };
 
 const Tokenmics = () => {
-    const contractAddress = '0xAb7194637b9da3759E6FCBe7DDC2EaC8bf85AD99';
+    const contractAddress = '';
     const buttonRef = useRef(null);
 
     useEffect(() => {
@@ -37,49 +41,59 @@ const Tokenmics = () => {
     }, []);
 
     return (
-        <div className="flex-col md:pt-0 pt-32 md:pl-20 pl-0 md:pb-0 pb-10 relative z-40">
+        <div className="flex-col md:pt-0 pt-32  md:pb-0 pb-10 relative z-40">
             <h1 className="text-title-box text-white md:text-start text-center md:text-[80px] text-[94px] absolute z-[70] md:mt-0 -mt-20 w-full md:hidden flex justify-center">Tokenomic</h1>
             <div className="all-center md:!items-start !items-center md:gap-0 gap-4 md:flex-row flex-col md:-mt-3 mt-10">
                 <div className="flex md:gap-4 gap-6 md:flex-row flex-col">
                     <div className="flex flex-col shadow-custom">
                         <Link to={'/'}>
-                            <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[320px] w-[360px] md:h-10 h-18 shadow-custom all-center justify-center rounded-3xl blur-1 ">
-                                <p className='!font-normal'>Total Supply</p>
-                                <p> - </p>
-                                <p> 250,120,000 $COLA</p>
+                            <button className="text-token flex gap-2 text-white p-2 text-center md:w-[320px] w-[360px] h-24 shadow-custom all-center !justify-start rounded-2xl blur-1 ">
+                                <img src={Item1} alt="Item box" width={80} />
+                                <div className="flex flex-col gap-2 text-start">
+                                    <p className='!font-medium archivo !text-xs uppercase text-gray-500'>Total Supply</p>
+                                    <p className='text-xl text-token-2'> 250,120,000 $CARCA</p>
+                                </div>
                             </button>
                         </Link>
                     </div>
                     <div className="flex flex-col shadow-custom">
                         <Link to={'/'}>
-                            <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[320px] w-[360px] md:h-10 h-18 shadow-custom all-center justify-center rounded-3xl blur-1 ">
-                                <p className='!font-normal'>TAX</p>
-                                <p> - </p>
-                                <p> 0% / 0% </p>
+                            <button className="text-token flex gap-2 text-white p-2 text-center md:w-[320px] w-[360px] h-24 shadow-custom all-center !justify-start rounded-2xl blur-1 ">
+                                <img src={Item2} alt="Item box" width={80} />
+                                <div className="flex flex-col gap-2 text-start">
+                                    <p className='!font-medium archivo !text-xs uppercase text-gray-500'>TAX</p>
+                                    <p className='text-xl text-token-2'>0% / 0%</p>
+                                </div>
                             </button>
                         </Link>
                     </div>
                     <div className="flex flex-col shadow-custom">
                         <Link to={'/'}>
-                            <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[320px] w-[360px] md:h-10 h-18 shadow-custom all-center justify-center rounded-3xl blur-1 ">
-                                <p className='!font-normal'>LP BURNT</p>
-                                <p> - </p>
-                                <p> FOREVER </p>
+                            <button className="text-token flex gap-2 text-white p-2 text-center md:w-[320px] w-[360px] h-24 shadow-custom all-center !justify-start rounded-2xl blur-1 ">
+                                <img src={Item3} alt="Item box" width={80} />
+                                <div className="flex flex-col gap-2 text-start">
+                                    <p className='!font-medium archivo !text-xs uppercase text-gray-500'>LP BURNT</p>
+                                    <p className='text-xl'>FOREVER</p>
+                                </div>
                             </button>
                         </Link>
                     </div>
                     <div className="flex flex-col shadow-custom">
                         <Link to={'/'}>
-                            <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[320px] w-[360px] md:h-10 h-18 shadow-custom all-center justify-center rounded-3xl blur-1 ">
-                                <p className='!font-normal'>Ownership Renounced</p>
+                            <button className="text-token flex gap-2 text-white p-2 text-center md:w-[320px] w-[360px] h-24 shadow-custom all-center !justify-start rounded-2xl blur-1 ">
+                                <img src={Item4} alt="Item box" width={80} />
+                                <div className="flex flex-col gap-2 text-start">
+                                    <p className='!font-medium archivo !text-xs uppercase text-gray-500'>Ownership</p>
+                                    <p className='text-xl text-token-2'>RENOUNCED</p>
+                                </div>
                             </button>
                         </Link>
                     </div>
                 </div>
 
             </div>
-            <div className="gap-2 cursor-pointer all-center md:mt-6 mt-12 w-full all-center">
-                <p className="text-address items-center flex  gap-2 !text-white pb-1 ">
+            <div className="gap-2 cursor-pointer md:mt-6 mt-12 w-full all-center !hidden">
+                <p className="text-address items-center flex gap-2 !text-white pb-1 ">
                     Contract Address
                     <p>-</p>
                     <p ref={buttonRef} data-clipboard-text={contractAddress}>
