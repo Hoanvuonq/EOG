@@ -42,7 +42,7 @@ const Tokenmics = () => {
 
     return (
         <div className="flex-col md:pt-0 pt-32  md:pb-0 pb-10 relative z-40">
-            <h1 className="text-title-box text-white md:text-start text-center md:text-[80px] text-[94px] absolute z-[70] md:mt-0 -mt-20 w-full md:hidden flex justify-center">Tokenomic</h1>
+            <h1 className="text-title-box text-white md:text-start text-center md:text-[80px] text-[65px] absolute z-[70] md:mt-0 -mt-20 w-full md:hidden flex justify-center">Tokenomic</h1>
             <div className="all-center md:!items-start !items-center md:gap-0 gap-4 md:flex-row flex-col md:-mt-3 mt-10">
                 <div className="flex md:gap-4 gap-6 md:flex-row flex-col">
                     <div className="flex flex-col shadow-custom">
