@@ -25,7 +25,7 @@ const splitAddress = (address, options) => {
 };
 
 const Tokenmics = () => {
-    const contractAddress = '';
+    const contractAddress = '0x9777a64287dc939701944A040670066CE36f33a8';
     const buttonRef = useRef(null);
 
     useEffect(() => {
@@ -51,7 +51,7 @@ const Tokenmics = () => {
                                 <img src={Item1} alt="Item box" width={80} />
                                 <div className="flex flex-col gap-2 text-start">
                                     <p className='!font-medium archivo !text-xs uppercase text-gray-500'>Total Supply</p>
-                                    <p className='text-xl text-token-2'> 250,120,000 $CARCA</p>
+                                    <p className='text-xl text-token-2'> 690,420,000,000 $CARCA</p>
                                 </div>
                             </button>
                         </Link>
@@ -72,8 +72,8 @@ const Tokenmics = () => {
                             <button className="text-token flex gap-2 text-white p-2 text-center md:w-[320px] w-[360px] h-24 shadow-custom all-center !justify-start rounded-2xl blur-1 ">
                                 <img src={Item3} alt="Item box" width={80} />
                                 <div className="flex flex-col gap-2 text-start">
-                                    <p className='!font-medium archivo !text-xs uppercase text-gray-500'>LP BURNT</p>
-                                    <p className='text-xl'>FOREVER</p>
+                                    <p className='!font-medium archivo !text-xs uppercase text-gray-500'>LP LOCKED</p>
+                                    <p className='text-xl'>6 MONTHS</p>
                                 </div>
                             </button>
                         </Link>

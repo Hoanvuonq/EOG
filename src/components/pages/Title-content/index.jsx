@@ -22,7 +22,7 @@ const splitAddress = (address, options) => {
 
 
 const TitleContent = () => {
-    const contractAddress = '';
+    const contractAddress = '0x9777a64287dc939701944A040670066CE36f33a8';
     const buttonRef = useRef(null);
 
     useEffect(() => {
