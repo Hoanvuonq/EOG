@@ -30,14 +30,14 @@ const Home = () => {
 
                                     <div className="flex flex-col shadow-custom">
                                         <button className="text-token flex gap-2 text-white p-6 text-center md:w-[340px] w-[360px] h-[120px] shadow-custom all-center rounded-[44px] bg-mega-box">
-                                            <Link to={"#"} target="_blank">
+                                            <Link to={"https://t.me/BlueCharizard_FTM"} target="_blank">
                                                 <button className="py-5 px-10 md:w-[280px] w-[360px] rounded-3xl md:border-2 !text-white uppercase shadow-custom text-btn all-center">telegram</button>
                                             </Link>
                                         </button>
                                     </div>
                                     <div className="flex flex-col shadow-custom">
                                         <button className="text-token flex gap-2 text-white p-6 text-center md:w-[340px] w-[360px] h-[120px] shadow-custom all-center rounded-[44px] bg-mega-box">
-                                            <Link to={"#"} target="_blank">
+                                            <Link to={"https://twitter.com/BlueCharizard_"} target="_blank">
                                                 <button className="py-5 px-10 md:w-[280px] w-[360px] rounded-3xl md:border-2 !text-white uppercase shadow-custom text-btn all-center">twitter</button>
                                             </Link>
                                         </button>
