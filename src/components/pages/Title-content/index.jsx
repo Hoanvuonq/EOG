@@ -44,17 +44,17 @@ const TokenmicsHome = () => {
                         <div className="flex flex-col gap-4">
                             <div className="flex flex-col">
                                 <Link to={'/'}>
-                                    <button className="text-token bg-box-tokenomics flex flex-col gap-2 text-white py-7 text-center px-6 md:w-[240px] w-[400px]  shadow-custom all-center md:!justify-start !justify-center rounded-2xl ">
-                                        <p className='!font-normal text-black'>Total Supply</p>
-                                        <p className='text-[#1257FA]'> 1,000,000,000 </p>
+                                    <button className="text-token blur-10 border-4 border-white flex flex-col gap-2 text-white py-7 text-center px-6 md:w-[300px] w-[400px] shadow-custom all-center md:!justify-start !justify-center rounded-3xl ">
+                                        <p className='!font-normal text-white'>Total Supply</p>
+                                        <p className='text-white'> 1,000,000,000 </p>
                                     </button>
                                 </Link>
                             </div>
                             <div className="flex flex-col">
                                 <Link to={'/'}>
-                                    <button className="text-token bg-box-tokenomics flex flex-col gap-2 text-white py-7 text-center px-6 md:w-[240px] w-[400px]  shadow-custom all-center md:!justify-start !justify-center rounded-2xl ">
-                                        <p className='!font-normal text-black'>Ticker</p>
-                                        <p className='text-[#1257FA]'> $BLUEPILL </p>
+                                    <button className="text-token blur-10 border-4 border-white flex flex-col gap-2 text-white py-7 text-center px-6 md:w-[300px] w-[400px] shadow-custom all-center md:!justify-start !justify-center rounded-3xl ">
+                                        <p className='!font-normal text-white'>Ticker</p>
+                                        <p className='text-white'> $MEME</p>
                                     </button>
                                 </Link>
                             </div>
@@ -62,18 +62,18 @@ const TokenmicsHome = () => {
                         <div className="flex flex-col gap-4">
                             <div className="flex flex-col">
                                 <Link to={'/'}>
-                                    <button className="text-token bg-box-tokenomics flex flex-col gap-2 text-white py-7 text-center px-6 md:w-[240px] w-[400px]  shadow-custom all-center md:!justify-start !justify-center rounded-2xl ">
-                                        <p className='!font-normal text-black'>Tax</p>
-                                        <p className='text-[#1257FA]'> 0% / 0% </p>
+                                    <button className="text-token blur-10 border-4 border-white flex flex-col gap-2 text-white py-7 text-center px-6 md:w-[300px] w-[400px] shadow-custom all-center md:!justify-start !justify-center rounded-3xl ">
+                                        <p className='!font-normal text-white'>Tax</p>
+                                        <p className='text-white'> 0% / 0% </p>
                                     </button>
                                 </Link>
                             </div>
 
                             <div className="flex flex-col">
                                 <Link to={'/'}>
-                                    <button className="text-token bg-box-tokenomics flex flex-col gap-2 text-white py-7 text-center px-6 md:w-[240px] w-[400px]  shadow-custom all-center md:!justify-start !justify-center rounded-2xl ">
-                                        <p className='!font-normal text-black'>Ownership</p>
-                                        <p className='text-[#1257FA]'>Renounced</p>
+                                    <button className="text-token blur-10 border-4 border-white flex flex-col gap-2 text-white py-7 text-center px-6 md:w-[300px] w-[400px] shadow-custom all-center md:!justify-start !justify-center rounded-3xl ">
+                                        <p className='!font-normal text-white'>Ownership</p>
+                                        <p className='text-white'>Renounced</p>
                                     </button>
                                 </Link>
                             </div>
