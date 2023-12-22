@@ -50,7 +50,7 @@ const Tokenmics = () => {
                             <button className="text-token flex gap-2 text-white p-6 text-center md:w-[340px] w-[360px] h-[120px] shadow-custom all-center rounded-[44px] bg-mega-box">
                                 <div className="flex flex-col gap-2 ">
                                     <p className='!font-bold comic_nue !text-base uppercase text-white'>Total Supply</p>
-                                    <p className='text-2xl text-token-2'> 690,420,000,000 $MEGA</p>
+                                    <p className='text-2xl text-token-2'> 100,000,000,000 $CHARIZARD</p>
                                 </div>
                             </button>
                         </Link>
@@ -70,7 +70,7 @@ const Tokenmics = () => {
                             <button className="text-token flex gap-2 text-white p-6 text-center md:w-[340px] w-[360px] h-[120px] shadow-custom all-center rounded-[44px] bg-mega-box">
                                 <div className="flex flex-col gap-2 ">
                                     <p className='!font-bold comic_nue !text-base uppercase text-white'>LP LOCKED</p>
-                                    <p className='text-2xl'>6 MONTHS</p>
+                                    <p className='text-2xl'>3 MONTHS</p>
                                 </div>
                             </button>
                         </Link>

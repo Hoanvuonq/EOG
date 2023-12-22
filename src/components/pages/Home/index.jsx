@@ -27,18 +27,27 @@ const Home = () => {
                             </div>
                             <div className="md:absolute relative top-0 md:hidden flex w-full md:justify-between justify-center px-10 md:pt-5 pt-10">
                                 <div className="all-center md:gap-6 gap-10 flex-col">
-                                    <Link to={"#"} target="_blank">
-                                        <button className="py-5 px-10 md:w-[280px] w-[360px] rounded-3xl md:border-2 !text-white blur-20 uppercase shadow-custom text-btn all-center">telegram</button>
-                                    </Link>
-                                    <Link to={"#"} target="_blank">
-                                        <button className="py-5 px-10 md:w-[280px] w-[360px] rounded-3xl md:border-2 !text-white blur-20 uppercase shadow-custom text-btn all-center">twitter</button>
-                                    </Link>
+
+                                    <div className="flex flex-col shadow-custom">
+                                        <button className="text-token flex gap-2 text-white p-6 text-center md:w-[340px] w-[360px] h-[120px] shadow-custom all-center rounded-[44px] bg-mega-box">
+                                            <Link to={"#"} target="_blank">
+                                                <button className="py-5 px-10 md:w-[280px] w-[360px] rounded-3xl md:border-2 !text-white uppercase shadow-custom text-btn all-center">telegram</button>
+                                            </Link>
+                                        </button>
+                                    </div>
+                                    <div className="flex flex-col shadow-custom">
+                                        <button className="text-token flex gap-2 text-white p-6 text-center md:w-[340px] w-[360px] h-[120px] shadow-custom all-center rounded-[44px] bg-mega-box">
+                                            <Link to={"#"} target="_blank">
+                                                <button className="py-5 px-10 md:w-[280px] w-[360px] rounded-3xl md:border-2 !text-white uppercase shadow-custom text-btn all-center">twitter</button>
+                                            </Link>
+                                        </button>
+                                    </div>
+
                                 </div>
                             </div>
                             <div className="w-full all-center pt-3 pb-20 md:!hidden !block">
                                 <Tokenmics />
                             </div>
-                            {/* <TitleContent /> */}
                         </div>
                     </div>
                 </div>
