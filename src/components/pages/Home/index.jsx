@@ -27,7 +27,6 @@ const Home = () => {
                             </div>
                             <div className="md:absolute relative top-0 md:hidden flex w-full md:justify-between justify-center px-10 md:pt-5 pt-10">
                                 <div className="all-center md:gap-6 gap-10 flex-col">
-
                                     <div className="flex flex-col shadow-custom">
                                         <button className="text-token flex gap-2 text-white p-6 text-center md:w-[340px] w-[360px] h-[120px] shadow-custom all-center rounded-[44px] bg-mega-box">
                                             <Link to={"https://t.me/BlueCharizard_FTM"} target="_blank">
