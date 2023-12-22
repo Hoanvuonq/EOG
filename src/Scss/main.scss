@@ -53,7 +53,7 @@ body {
 }
 
 .bg-custom {
-    background-image: url(../assets/background.mp4);
+    background-image: url(../assets/bg-eog-version-1.png);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -80,16 +80,6 @@ body {
 
 .bg-mery {
     background: linear-gradient(rgba(135, 17, 5, 1), rgba(98, 9, 2, 1));
-}
-
-.bg-gradient {
-    background-image: url(../assets/bg-gradient.png);
-    background-repeat: no-repeat;
-
-    @media (max-width: 768px) {
-        height: auto;
-        background: rgb(106 4 5 / 1%);
-    }
 }
 
 .bg-avatar {
@@ -121,7 +111,6 @@ body {
 }
 
 .shadow-custom {
-    // box-shadow: 6px 6px 0px 0px rgba(0, 0, 0, 0.25);
     transition: transform 0.1s;
     &:hover {
         transform: translateY(2px);
@@ -199,8 +188,8 @@ body {
 .text-token {
     font-size: 14px;
     line-height: 24px;
-    font-weight: 100;
-    font-family: 'Archivo', sans-serif;
+    font-weight: 700;
+    font-family: 'Comic Neue', cursive;
 
     @media (max-width: 768px) {
         font-size: 16px;
@@ -245,7 +234,7 @@ body {
     font-family: 'Archivo', sans-serif;
 }
 
-.text-link-box {
+Comic Sans MS .text-link-box {
     font-size: 12px;
     line-height: 26px;
     font-weight: 700;
@@ -261,4 +250,13 @@ body {
     text-align: justify;
     color: #fff;
     font-family: 'Barlow', sans-serif;
+}
+
+.bg-mega-box {
+    background: radial-gradient(63.39% 63.39% at 50% 50%, rgba(0, 71, 255, 0) 0%, #38b1ff 100%),
+        linear-gradient(0deg, rgba(0, 133, 255, 0.26), rgba(0, 133, 255, 0.26)),
+        linear-gradient(236.44deg, #27d8ff 2.91%, rgba(39, 216, 255, 0) 48.02%, #27d8ff 81.13%);
+    border: Mixed solid;
+
+    border-image-source: linear-gradient(236.44deg, #27d8ff 2.91%, rgba(39, 216, 255, 0) 48.02%, #27d8ff 81.13%);
 }
