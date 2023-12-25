@@ -23,17 +23,11 @@ const Home = () => {
                             <h1 className="text-title text-white with-shadow md:absolute relative top-20 md:right-96 right-0 md:hidden block">$WOJAK</h1>
                             <div className="md:absolute relative top-0 md:hidden flex w-full md:justify-between justify-center px-10 md:pt-5 pt-32">
                                 <div className="all-center md:gap-6 gap-10 flex-col">
-                                    <Link to={"#"} target="_blank">
-                                        <button className="py-5 px-10 md:w-[280px] w-[360px] md:h-9 h-20 rounded-xl border-4 border-white !text-white blur-10 uppercase shadow-custom text-btn all-center">dextools chart</button>
-                                    </Link>
-                                    <Link to={"#"} target="_blank">
+                                    <Link to={"https://t.me/WojakSolanaOfficial"} target="_blank">
                                         <button className="py-5 px-10 md:w-[280px] w-[360px] md:h-9 h-20 rounded-xl border-4 border-white !text-white blur-10 uppercase shadow-custom text-btn all-center">telegram</button>
                                     </Link>
-                                    <Link to={"#"} target="_blank">
+                                    <Link to={"https://twitter.com/Wojak_Solana"} target="_blank">
                                         <button className="py-5 px-10 md:w-[280px] w-[360px] md:h-9 h-20 rounded-xl border-4 border-white !text-white blur-10 uppercase shadow-custom text-btn all-center">twitter</button>
-                                    </Link>
-                                    <Link to={"#"} target="_blank">
-                                        <button className="py-5 px-10 md:w-[280px] w-[360px] md:h-9 h-20 rounded-xl border-4 border-white !text-white blur-10 uppercase shadow-custom text-btn all-center">Discord</button>
                                     </Link>
                                 </div>
                             </div>
