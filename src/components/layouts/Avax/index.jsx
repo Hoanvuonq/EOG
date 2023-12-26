@@ -53,7 +53,7 @@ const Avax = () => {
                                             <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[410px] w-[380px] md:h-10 h-20 shadow-custom all-center md:rounded-none rounded-xl ">
                                                 <p className='font-bold text-[#1257FA] text-border-1 !text-2xl'>Total Supply</p>
                                                 <p> - </p>
-                                                <p className='font-bold !text-3xl'> 100,000,000 $ZEUS</p>
+                                                <p className='font-bold !text-3xl'> 69,420,000,000 $ZEUS</p>
                                             </button>
                                         </Link>
                                     </div>
@@ -73,7 +73,7 @@ const Avax = () => {
                                             <button className="text-token flex gap-2 text-white py-5 text-center px-4 md:w-[250px] w-[380px] md:h-10 h-20 shadow-custom all-center md:rounded-none rounded-xl ">
                                                 <p className='font-bold text-[#1257FA] text-border-1 !text-2xl'>LP LOCKED</p>
                                                 <p> - </p>
-                                                <p className='font-bold !text-3xl'> 9 MONTHS </p>
+                                                <p className='font-bold !text-3xl'> 3 MONTHS </p>
                                             </button>
                                         </Link>
                                     </div>
