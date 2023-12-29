@@ -22,7 +22,7 @@ const Home = () => {
                         <h1 className="text-title text-white with-shadow md:absolute text-center relative top-20 md:hidden block">$DaWae</h1>
                         <div className="md:absolute relative top-0 md:hidden flex w-full md:justify-between justify-center px-10 md:pt-5 pt-32">
                             <div className="all-center md:gap-6 gap-10 flex-col">
-                                <Link to={'/'}>
+                                <Link to={'https://t.me/DawaeAvalanche'}>
                                     <button className="text-token text-lucky text-[#B70000] flex gap-2 text-center px-4 shadow-custom all-center justify-center ">
                                         <img src={Token2} alt="Token 2" className='w-[400px] relative' />
                                         <div className="flex -mt-4 absolute gap-1">
@@ -30,7 +30,7 @@ const Home = () => {
                                         </div>
                                     </button>
                                 </Link>
-                                <Link to={'/'}>
+                                <Link to={'https://twitter.com/DawaeAvalanche'}>
                                     <button className="text-token text-lucky text-[#B70000] flex gap-2 text-center px-4 shadow-custom all-center justify-center ">
                                         <img src={Token2} alt="Token 2" className='w-[400px] relative' />
                                         <div className="flex -mt-4 absolute gap-1">

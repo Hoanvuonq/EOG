@@ -3,6 +3,8 @@ import Design1 from '../../../assets/avax/design-1.png'
 import Design2 from '../../../assets/avax/design-2.png'
 import Design3 from '../../../assets/avax/design-3.png'
 import Design4 from '../../../assets/avax/design-4.png'
+import { Link } from 'react-router-dom'
+
 
 
 const Avax = () => {
@@ -25,7 +27,8 @@ const Avax = () => {
             </div>
             <div className=''>
                 <div className="absolute w-full z-[80] ">
-                    <img src={Design4} alt="Design" width={200} className='absolute top-[560px] right-[12%] z-10 md:w-[240px] w-[100px] shadow-custom cursor-pointer' />
+                    <Link to={'https://dexscreener.com/avalanche/0xf655be246ad0404d3cb7c7245536eb5700879bbe'}>
+                        <img src={Design4} alt="Design" width={200} className='absolute top-[560px] right-[12%] z-10 md:w-[240px] w-[100px] shadow-custom cursor-pointer' /></Link>
                 </div>
             </div>
 

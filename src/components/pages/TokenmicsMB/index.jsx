@@ -68,18 +68,22 @@ const TokenmicsMB = () => {
                     </div>
                     <div className="shadow-custom w-full">
                         <Link to={'/'}>
-                            <button className="text-token !text-lg  text-lucky text-[#B70000] gap-2  text-center px-4 shadow-custom all-center justify-center ">
-                                <img src={Token2} alt="Token 2" className='w-[420px] relative' />
-                                <div className="flex -mt-6 absolute gap-1">
-                                    <p className='!font-normal'>CONTRACT</p>
+                            <button className="text-token  text-[#B70000] gap-2 text-center px-4 shadow-custom all-center justify-center ">
+                                <img src={Token3} alt="Token 3" className='w-[430px] relative' />
+                                <div className="-mt-6 all-center absolute gap-1">
+                                    <p className='!font-normal text-lucky'>CONTRACT</p>
                                     <p> - </p>
-                                    <p className=''> 690,420,000,000 $DaWae</p>
+                                    <p className='all-center gap-2'>
+                                        <p ref={buttonRef} data-clipboard-text={contractAddress}>
+                                            {splitAddress(contractAddress, { numSplit: 10 })}
+                                        </p>
+                                        <img src={IconCoppy} width={20} height={20} alt="Icon Coppy" className="ml-2 shadow-custom h-5" /></p>
                                 </div>
                             </button>
                         </Link>
                     </div>
                     <div className="shadow-custom w-full all-center">
-                        <Link to={'/'}>
+                        <Link to={'https://app.uncx.network/amm/traderjoe-v1/pair/0xF655BE246Ad0404d3Cb7c7245536eb5700879BBE'}>
                             <button className="text-token !text-2xl  text-lucky flex gap-2 text-[#B70000] bg-white py-5 text-center md:w-[280px] w-[360px] md:h-14 border-2 border-[#B70000] h-18 shadow-custom all-center justify-center rounded-3xl">
                                 <p className='!font-normal'>LP LOCKED</p>
                                 <p> - </p>
@@ -89,16 +93,6 @@ const TokenmicsMB = () => {
                     </div>
                 </div>
 
-            </div>
-            <div className="gap-2 cursor-pointer all-center mb-10 mt-6 w-full all-center">
-                <p className="text-address items-center flex  gap-2 !text-white pb-1 ">
-                    Contract Address
-                    <p>-</p>
-                    <p ref={buttonRef} data-clipboard-text={contractAddress}>
-                        {splitAddress(contractAddress, { numSplit: 10 })}
-                    </p>
-                    <img src={IconCoppy} width={20} height={20} alt="Icon Coppy" className="ml-2" />
-                </p>
             </div>
         </div>
     );
