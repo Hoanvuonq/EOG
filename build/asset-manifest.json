@@ -1,34 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.44e6f268.css",
-    "main.js": "/static/js/main.00de08b6.js",
-    "static/media/background.mp4": "/static/media/background.f5bfcd87231a33a8e194.mp4",
-    "static/media/bg-gradient.png": "/static/media/bg-gradient.33fcf1f6ce570ca8d7d0.png",
-    "static/media/avatar-version-16.png": "/static/media/avatar-version-16.4c07f84489dddfc85449.png",
+    "main.css": "/static/css/main.8b28e9ff.css",
+    "main.js": "/static/js/main.3ce59849.js",
+    "static/media/bg-eog-version-16.png": "/static/media/bg-eog-version-16.e37ba782350695d7790c.png",
+    "static/media/title.png": "/static/media/title.748f34fb9b8dc242968a.png",
+    "static/media/avatar-version-16.png": "/static/media/avatar-version-16.8fd1d40a4ec321c09af9.png",
     "static/media/Enfonix-DEMO.otf": "/static/media/Enfonix-DEMO.11623b455cceae92d9e4.otf",
     "static/media/JosefinSans-VariableFont_wght.ttf": "/static/media/JosefinSans-VariableFont_wght.613585db06f849ca7717.ttf",
     "static/media/Benzin Bold.ttf": "/static/media/Benzin Bold.f4826ddcf24e7e1ed982.ttf",
+    "static/media/token-3.png": "/static/media/token-3.5e6dd68f13f41bcbabfb.png",
     "static/media/BRLNSR.TTF": "/static/media/BRLNSR.dc095e60ae5e90312573.TTF",
-    "static/media/design-2.png": "/static/media/design-2.2b1e3375489e3fba02aa.png",
     "static/media/SVN-Avo.ttf": "/static/media/SVN-Avo.5d0827f05fa8942e1968.ttf",
+    "static/media/token-2.png": "/static/media/token-2.d8f71a0396813802f7f0.png",
     "static/media/COMIC.TTF": "/static/media/COMIC.cf3d8690bffa563fb10b.TTF",
-    "static/media/design-7.png": "/static/media/design-7.dae1c76f12d502940f75.png",
-    "static/media/design-1.png": "/static/media/design-1.cf1aa98657ba6d13f20e.png",
-    "static/media/design-5.png": "/static/media/design-5.94a33948a800d488f953.png",
+    "static/media/token-4.png": "/static/media/token-4.4db8e4d84bed086ec029.png",
+    "static/media/design-1.png": "/static/media/design-1.595f4c2939232f6eea49.png",
+    "static/media/token-1.png": "/static/media/token-1.c042f07b383a7da9e555.png",
     "static/media/GrinchedRegular.otf": "/static/media/GrinchedRegular.bc1058eedc3a3d230300.otf",
-    "static/media/title-2.png": "/static/media/title-2.b9d70963ca9b9f022264.png",
-    "static/media/design-3.png": "/static/media/design-3.20fd8686da79b9ba5d12.png",
-    "static/media/design-6.png": "/static/media/design-6.55349add279da4e85ad3.png",
-    "static/media/design-4.png": "/static/media/design-4.bdf6c6894d5d1672f4e8.png",
-    "static/media/title-1.png": "/static/media/title-1.47a30b096dd50b0d81f2.png",
     "static/media/eog.png": "/static/media/eog.9cf12f5d6bbbc891a502.png",
     "static/media/Black Bison.ttf": "/static/media/Black Bison.41e8174c96734a2bc9b7.ttf",
     "index.html": "/index.html",
-    "main.44e6f268.css.map": "/static/css/main.44e6f268.css.map",
-    "main.00de08b6.js.map": "/static/js/main.00de08b6.js.map"
+    "main.8b28e9ff.css.map": "/static/css/main.8b28e9ff.css.map",
+    "main.3ce59849.js.map": "/static/js/main.3ce59849.js.map"
   },
   "entrypoints": [
-    "static/css/main.44e6f268.css",
-    "static/js/main.00de08b6.js"
+    "static/css/main.8b28e9ff.css",
+    "static/js/main.3ce59849.js"
   ]
 }
