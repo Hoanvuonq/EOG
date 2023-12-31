@@ -83,11 +83,9 @@ const Tokenmics = () => {
                         </Link>
                     </div>
                     <div className="shadow-custom w-full all-center">
-                        <Link to={'https://app.uncx.network/amm/traderjoe-v1/pair/0xF655BE246Ad0404d3Cb7c7245536eb5700879BBE'}>
-                            <button className="text-token flex gap-2 text-[#B70000] bg-white py-5 text-center md:w-[280px] w-[360px] md:h-14 border-2 border-[#B70000] h-18 shadow-custom all-center justify-center rounded-3xl">
-                                <p className='!font-normal'>LP LOCKED</p>
-                                <p> - </p>
-                                <p> 3 MONTHS </p>
+                        <Link to={'https://traderjoexyz.com/avalanche/trade?outputCurrency=0xd544918fa992C2d2FcA60c76D8C2a7Db8AaAD2e8'}>
+                            <button className="text-token flex gap-2 text-[#B70000] bg-white py-5 text-center md:w-[140px] w-[360px] md:h-14 border-2 border-[#B70000] h-18 shadow-custom all-center justify-center rounded-2xl">
+                                <p className=''>BUY</p>
                             </button>
                         </Link>
                     </div>
