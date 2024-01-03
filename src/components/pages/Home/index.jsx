@@ -20,8 +20,8 @@ const Home = () => {
                         </Link>
                         <div className="flex gap-4 items-center">
                             <div className="text-white flex gap-4 font-bold">
-                                <Link to={'#'} target="_blank" className="shadow-custom">Twitter</Link>
-                                <Link to={'#'} target="_blank" className="shadow-custom">Telegram</Link>
+                                <Link to={'https://twitter.com/TurkishETH_'} target="_blank" className="shadow-custom">Twitter</Link>
+                                <Link to={'https://t.me/TurkishEthereum'} target="_blank" className="shadow-custom">Telegram</Link>
                             </div>
                             <div className="text-white flex gap-4 font-bold">
                                 <Link to={'#'} target="_blank">
@@ -52,13 +52,13 @@ const Home = () => {
                         <div
                             className="md:absolute relative top-0 md:hidden flex w-full md:justify-between justify-center px-10 md:pt-5 pt-32">
                             <div className="all-center md:gap-6 gap-10 flex-col">
-                                <Link to={'#'} target="_blank">
+                                <Link to={'https://twitter.com/TurkishETH_'} target="_blank">
                                     <button
                                         className="text-token w-[340px] rounded-full py-4 text-lucky text-[#D40000] bg-black border border-[#D40000] flex text-center shadow-custom all-center">
                                         <p className="!text-5xl">Twitter</p>
                                     </button>
                                 </Link>
-                                <Link to={'#'} target="_blank">
+                                <Link to={'https://t.me/TurkishEthereum'} target="_blank">
                                     <button
                                         className="text-token w-[340px] rounded-full p-4 text-lucky text-[#D40000] bg-black border border-[#D40000] flex text-center shadow-custom all-center">
                                         <p className="!text-5xl">Telegram</p>
