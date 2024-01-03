@@ -6,6 +6,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,300;0,400;1,200;1,300;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,400;0,700;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,700;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @font-face {
     font-family: 'Enfonix';
     src: url('../assets/font/enfonix/Enfonix-DEMO.otf') format('truetype');
@@ -50,7 +51,7 @@ body {
 }
 
 .bg-custom {
-    background-image: url(../assets/bg-eog-version-16.png);
+    background-image: url(../assets/bg-eog-version-1.png);
     height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -58,32 +59,6 @@ body {
     @media (max-width: 768px) {
         height: auto;
     }
-}
-.bg-token-1 {
-    background-image: url(../assets/token-1.png);
-    width: 269px;
-    height: 146px;
-    object-fit: cover;
-    background-repeat: no-repeat;
-}
-.bg-token-2 {
-    background-image: url(../assets/token-2.png);
-    width: 414px;
-    height: 146px;
-    background-repeat: no-repeat;
-}
-.bg-token-3 {
-    background-image: url(../assets/token-3.png);
-    width: 600px;
-    height: 146px;
-    background-repeat: no-repeat;
-}
-
-.bg-token-4 {
-    background-image: url(../assets/token-4.png);
-    width: 400px;
-    height: 146px;
-    background-repeat: no-repeat;
 }
 
 .all-center {
@@ -101,7 +76,7 @@ body {
     @media (max-width: 768px) {
         font-size: 90px;
         line-height: 90px;
-        font-family: 'Grinched', sans-serif;
+        font-family: 'Anton', sans-serif;
     }
 }
 
@@ -150,9 +125,8 @@ body {
     line-height: 90px;
     font-weight: 400;
     font-family: 'Grinched', sans-serif;
-
     @media (max-width: 768px) {
-        font-family: 'Grinched', cursive;
+        font-family: 'Anton', sans-serif;
     }
 }
 
